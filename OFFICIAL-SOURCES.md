@@ -47,3 +47,8 @@ Khi có xung đột:
 2. Help Center / changelog mới nhất.
 3. Academy/use case cho phương pháp thực hành.
 4. Community/blog chỉ dùng bổ sung, không làm source of truth cho feature availability.
+
+## Source mapping rule — Gắn nguồn vào bài
+Danh sách trên là index. Mỗi lesson phải trích dẫn trang trực tiếp, ghi source snapshot, surface đã kiểm tra và phần có thể đổi. Khi chưa xác minh được, ghi uncertainty và không viết thao tác UI như sự thật.
+
+Xem [Feature Availability](docs/FEATURE-AVAILABILITY.md) trước khi phát hành lesson.

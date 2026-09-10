@@ -3,7 +3,17 @@
 > **Stage:** A / B / C  
 > **Module:** MXX  
 > **Source snapshot:** YYYY-MM-DD  
-> **Status:** NOT STARTED / IN PROGRESS / PASS
+> **Prerequisite:** lesson ID hoặc `none`  
+> **Estimated time:** 30–60 minutes  
+> **Environment tested:** web / desktop / mobile / API / other  
+> **Account or plan assumption:** ...  
+> **Feature status:** available / limited / not tested  
+> **Status:** PLANNED / DRAFT / IN REVIEW / READY  
+> **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
+
+## 0. Access and setup — Điều kiện truy cập
+
+Nêu surface, file/dữ liệu, quota/chi phí, quyền tài khoản và fallback. Không yêu cầu secret hoặc dữ liệu sản xuất.
 
 ## 1. Learning objectives — Mục tiêu học tập
 
@@ -128,11 +138,15 @@ Sau bài này, bạn có thể:
 - [ ] Understand
 - [ ] Use
 
-## 13. Official sources — Nguồn chính thức
+## 13. Evidence to save — Evidence cần lưu
+
+Liệt kê prompt, kết quả, verification, failure mode và reflection cần lưu. Dùng [evidence template](evidence/TEMPLATE.md).
+
+## 14. Official sources — Nguồn chính thức
 
 - ...
 
-## 14. Reflection — Tự tổng kết
+## 15. Reflection — Tự tổng kết
 
 **What I learned / Tôi đã học được:** ...  
 **What confused me / Điều còn chưa rõ:** ...  

@@ -1,7 +1,28 @@
 # Curriculum
 
+> **Publication status:** lesson ID không đồng nghĩa bài đã phát hành. Xem [Content Status](docs/CONTENT-STATUS.md) và [Start Here](START-HERE.md).
+
 > **Language format / Định dạng ngôn ngữ:** all lessons are bilingual English–Vietnamese. Technical terms use their canonical English names, with plain-English definitions, contextual Vietnamese explanations, examples, and a cumulative glossary. English exposure increases gradually across the three stages.
 
+## Stage 0 — Getting started / Khởi động
+
+ > **Status:** PLANNED. File lesson BOOT sẽ được tạo trong U02; hiện chưa bài nào READY.
+
+**BOOT.1 — First chat / Cuộc chat đầu tiên**  
+Mở ChatGPT, gửi yêu cầu đầu tiên và nhận biết prompt/response.
+
+**BOOT.2 — Conversation basics / Thao tác hội thoại cơ bản**  
+Sửa, rút gọn, đổi format và nhận biết context của chat hiện tại.
+
+**BOOT.3 — Safe use & verification / Dùng an toàn và kiểm chứng**  
+Hiểu câu trả lời có thể sai, kiểm tra một claim và dùng dữ liệu giả lập.
+
+**BOOT.4 — Save evidence / Lưu bằng chứng học tập**  
+Lưu prompt, kết quả, verification và reflection mà không đưa secret/dữ liệu riêng tư lên repo.
+
+**PASS BOOT:** hoàn thành 4 tác vụ, kiểm tra một claim và nộp evidence đã làm sạch.
+
+---
 ## Stage A — ChatGPT Operator
 
 ### M00 — Mental model & choosing the right surface

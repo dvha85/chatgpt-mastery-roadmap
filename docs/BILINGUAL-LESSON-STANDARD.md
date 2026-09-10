@@ -171,3 +171,10 @@ Vietnamese explanations remain available for difficult concepts even in Stage C.
 When terminology is product-specific, check the latest official OpenAI documentation before finalizing a lesson.
 
 Nếu thuật ngữ liên quan đến sản phẩm/tính năng cụ thể, phải kiểm tra tài liệu OpenAI mới nhất trước khi hoàn thiện bài học.
+
+## 7. Beginner accessibility — Khả năng tiếp cận cho người mới
+- Giải thích bước thao tác trước khi dùng từ viết tắt hoặc tên tính năng.
+- Mỗi ví dụ chỉ rõ input, hành động, kết quả minh họa và cách kiểm tra.
+- Không viết “hãy thực hành” nếu chưa có dữ liệu, prompt mẫu hoặc tiêu chí quan sát.
+- Ghi rõ nguyên lý bền vững và chi tiết giao diện có thể đổi.
+- Tính năng không có trên mọi tài khoản phải có fallback và nhãn `not tested`.

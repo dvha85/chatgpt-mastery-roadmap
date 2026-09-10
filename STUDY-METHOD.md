@@ -73,3 +73,14 @@ Không lưu secret, token, password hoặc dữ liệu riêng tư không cần t
 - 10 phút: update PROGRESS + notes.
 
 Có thể rút ngắn hoặc kéo dài, nhưng không bỏ bước verify.
+
+## 5. Beginner mode — Chế độ người mới
+Nếu đây là lần đầu dùng ChatGPT, làm theo [START-HERE.md](START-HERE.md) và chỉ mở lesson READY. Một buổi học nên có một mục tiêu nhỏ, input không nhạy cảm và kết quả quan sát được.
+
+Nếu bị kẹt, ghi bước và lỗi trước khi hỏi lại. Nếu tính năng không có, làm fallback và ghi rõ giới hạn; fallback không chứng minh bạn đã dùng tính năng thật.
+
+## 6. Evidence và quyền riêng tư
+Evidence là đầu ra của người học. Dùng [evidence checklist](evidence/README.md), thay dữ liệu thật bằng dữ liệu giả lập và xóa secret. Có thể dùng private notes hoặc private fork.
+
+## 7. Ôn tập khi chưa PASS
+Chấm từng năng lực Explain, Execute, Diagnose, Verify, Transfer và English. Ôn đúng tiêu chí thiếu, làm input khác và ghi lần đánh giá lại.

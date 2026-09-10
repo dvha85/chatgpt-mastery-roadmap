@@ -4,7 +4,7 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 
 Khóa học được viết **song ngữ English–Tiếng Việt** để đồng thời xây năng lực sử dụng ChatGPT và khả năng đọc/viết tiếng Anh chuyên ngành AI. Thuật ngữ kỹ thuật giữ tên tiếng Anh chuẩn và luôn có giải thích tiếng Việt theo ngữ cảnh.
 
-> Phiên bản: v0.1.2  
+> Phiên bản: v0.1.3  
 > Source snapshot: 2026-09-10  
 > Nguyên tắc: official-source-first, practice-first, verify-before-trust.
 
@@ -86,13 +86,13 @@ Mọi lesson tuân theo [Bilingual Lesson Standard](docs/BILINGUAL-LESSON-STANDA
 
 ## Bắt đầu
 
-> Các bước dưới đây là trình tự trong đề cương hiện tại. M00.1 chưa có bài giảng chi tiết; phần BOOT sẽ được bổ sung theo [kế hoạch cập nhật](docs/UPDATE-PLAN.md). Chỉ bắt đầu đường học mới khi bài tương ứng đã được phát hành.
+Mở [START-HERE.md](START-HERE.md) để chọn đường học, kiểm tra bài READY, lưu evidence và xử lý khi thiếu tính năng. Xem [CONTENT-STATUS.md](docs/CONTENT-STATUS.md) trước khi bắt đầu từng lesson.
 
-1. Đọc [CURRICULUM.md](CURRICULUM.md).
-2. Đọc [STUDY-METHOD.md](STUDY-METHOD.md).
-3. Mở [PROGRESS.md](PROGRESS.md).
-4. Bắt đầu tại **M00.1 — Chat vs Work vs Codex**.
-5. Chỉ chuyển bài khi đạt PASS.
+1. Đọc [CURRICULUM.md](CURRICULUM.md) để biết thứ tự.
+2. Đọc [STUDY-METHOD.md](STUDY-METHOD.md) để biết vòng học và PASS.
+3. Mở [PROGRESS.md](PROGRESS.md) để ghi năng lực của bạn.
+4. Chỉ học lesson có `Content status = READY`; các lesson khác mới là đề cương/kế hoạch.
+5. Chỉ chuyển bài khi evidence của bạn đạt PASS.
 
 ## Cấu trúc repo
 
@@ -106,6 +106,7 @@ chatgpt-mastery-roadmap/
 ├── GLOSSARY.md
 ├── OFFICIAL-SOURCES.md
 ├── CHANGELOG.md
+├── START-HERE.md
 ├── modules/
 │   ├── M00-mental-model/
 │   ├── M01-prompting/
@@ -119,6 +120,9 @@ chatgpt-mastery-roadmap/
 │   ├── M09-codex-github/
 │   ├── M10-api-mcp-agents/
 │   └── M11-agentic-system-design/
+├── evidence/
+│   ├── README.md
+│   └── TEMPLATE.md
 ├── labs/
 │   ├── PROMPT-LAB.md
 │   └── EVALUATION-LAB.md

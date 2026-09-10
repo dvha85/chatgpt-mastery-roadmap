@@ -16,3 +16,8 @@ Chọn đúng surface và hình thành mental model đúng trước khi tối ư
 - Làm exercise trên một tác vụ thật.
 - Ghi evidence.
 - Chỉ đánh dấu PASS khi đạt tiêu chí trong `CURRICULUM.md`.
+
+## Navigation
+- [Start Here](../../START-HERE.md)
+- [Content Status](../../docs/CONTENT-STATUS.md)
+- Lesson M00 vẫn PLANNED; file bài sẽ được thêm khi READY.

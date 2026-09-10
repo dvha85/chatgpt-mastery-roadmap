@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.3 — 2026-09-10
+
+- Triển khai U01/P0: thêm Start Here, learning paths, content status, feature availability, troubleshooting và evidence workflow.
+- Mở rộng curriculum với 4 bài BOOT ở trạng thái PLANNED; chưa phát hành bài giảng mới.
+- Chuẩn hóa lesson metadata về prerequisite, môi trường, điều kiện tài khoản và trạng thái biên soạn.
+
 ## v0.1.2 — 2026-09-10
 
 - Thêm `docs/UPDATE-PLAN.md`: kế hoạch hoàn thiện khóa học cho người mới, gồm 8 giai đoạn P0–P7 và 14 gói công việc U01–U14.

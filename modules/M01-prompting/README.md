@@ -17,3 +17,8 @@ Biến yêu cầu mơ hồ thành task specification rõ, có thể review và k
 - Làm exercise trên một tác vụ thật.
 - Ghi evidence.
 - Chỉ đánh dấu PASS khi đạt tiêu chí trong `CURRICULUM.md`.
+
+## Navigation
+- [Start Here](../../START-HERE.md)
+- [Content Status](../../docs/CONTENT-STATUS.md)
+- Lesson M01 vẫn PLANNED; file bài sẽ được thêm khi READY.
