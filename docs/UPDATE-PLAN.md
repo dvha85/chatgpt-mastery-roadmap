@@ -3,9 +3,9 @@
 > Ngày lập: 2026-09-10  
 > Phiên bản kế hoạch: 1.0  
 > Baseline review: commit `9d70449b6309c3ce6c3e1289fae15bbbd4b9f20c`  
-> Trạng thái: IN PROGRESS — U01/P0 và U02/P1 đã triển khai; các gói sau vẫn theo kế hoạch.  
-> Current implementation: U01/P0 and U02/P1 are complete in the release commit that contains this update.
-> Phạm vi lần cập nhật này: hoàn thiện U01/P0, phát hành BOOT.1–BOOT.4 và cập nhật trạng thái, điều hướng, nguồn và evidence.
+> Trạng thái: IN PROGRESS — U01/P0, U02/P1 và U03–U04/P2 đã triển khai; P3 là gate tiếp theo.  
+> Current implementation: P0–P2 content scope is complete; 11 lessons BOOT–M01 are READY. P3 labs/pilot/release evidence is not complete yet.  
+> Phạm vi cập nhật gần nhất: phát hành M00.1–M00.3, M01.1–M01.4, M00/M01 checkpoints, QA evidence và đồng bộ trạng thái/điều hướng.
 
 ## 1. Mục tiêu và hiện trạng
 
@@ -107,7 +107,7 @@ Thời lượng mục tiêu: 20–40 phút/bài, sẽ điều chỉnh theo thử
 
 ## 6. P2 — Hoàn thiện M00 và M01
 
-**Ưu tiên:** bắt buộc. **Phụ thuộc:** P1 và template P0. **Trạng thái:** PLANNED.
+**Ưu tiên:** bắt buộc. **Phụ thuộc:** P1 và template P0. **Trạng thái:** COMPLETED in U03–U04.
 
 ### M00 — Hiểu ChatGPT và giao việc
 
@@ -128,11 +128,11 @@ Thời lượng mục tiêu: 20–40 phút/bài, sẽ điều chỉnh theo thử
 
 Mỗi bài có 1 ví dụ làm trọn vẹn, 1 bài có hướng dẫn, 1 bài tự làm khác tình huống mẫu và đáp án/rubric riêng. Không phụ thuộc vào việc model phải tự sinh ra lỗi đúng như dự đoán: cung cấp sẵn một đầu ra lỗi để bài tập tái lập được.
 
-**Gate P2:** 7 bài đủ template; các thuật ngữ được giải thích trước khi yêu cầu sử dụng; mọi file đầu vào sẵn có; người học thấy sự khác biệt giữa kết quả minh họa và kết quả mình cần đạt.
+**Gate P2:** PASS về phạm vi nội dung. 7 bài M00–M01 đã READY, thuật ngữ được giải thích trước khi yêu cầu sử dụng, input thực hành có sẵn/inline, checkpoints có rubric và QA evidence tại `labs/examples/M00-qa-check.md` và `labs/examples/M01-qa-check.md`.
 
 ## 7. P3 — Labs, PASS, thử học và phát hành v0.2.0
 
-**Ưu tiên:** bắt buộc trước khi gọi đợt đầu là có thể tự học. **Phụ thuộc:** P2. **Trạng thái:** PLANNED.
+**Ưu tiên:** bắt buộc trước khi gọi đợt đầu là có thể tự học. **Phụ thuộc:** P2. **Trạng thái:** PLANNED — NEXT.
 
 ### File và bộ bài cần bổ sung
 
@@ -253,14 +253,14 @@ Tạo `assessments/M09-CHECK.md` đến `assessments/M11-CHECK.md`, `capstone/BU
 
 ## 13. Backlog có thể triển khai thành commit
 
-Các mục dưới đây đều PLANNED. Người biên soạn hoặc trợ lý thực hiện từng gói; người review kiểm tra evidence; người học chỉ xác nhận năng lực qua bài làm của chính mình. Chưa chỉ định người phụ trách bên ngoài và chưa tạo issue hay gửi thông báo.
+Trạng thái từng gói Uxx được cập nhật theo implementation thực tế. Người biên soạn hoặc trợ lý thực hiện từng gói; người review kiểm tra evidence; người học chỉ xác nhận năng lực qua bài làm của chính mình. Chưa chỉ định người phụ trách bên ngoài và chưa tạo issue hay gửi thông báo.
 
 | ID | Công việc | Phụ thuộc | Điểm kết thúc để commit |
 |---|---|---|---|
 | U01 | Hướng bắt đầu, learning paths, content status, template | Kế hoạch này | DONE — Gate P0 đã rà lại trong U01 completion pass |
 | U02 | BOOT.1–BOOT.4, dữ liệu và evidence mẫu | U01 | DONE — Gate P1 đạt; BOOT READY |
-| U03 | Ba lesson M00 và bộ 10 tình huống | U02 | M00 đủ READY và đáp án |
-| U04 | Bốn lesson M01 và bộ 5 task spec | U03 | M01 đủ READY và đáp án |
+| U03 | Ba lesson M00 và bộ 10 tình huống | U02 | DONE — M00 READY + M00 Check + QA evidence |
+| U04 | Bốn lesson M01 và bộ 5 task spec | U03 | DONE — M01 READY + M01 Check + QA evidence; Gate P2 content scope complete |
 | U05 | Ba lab mẫu, rubric và kiểm tra tổng hợp | U04 | Tự kiểm tra P3, còn pilot được ghi riêng |
 | U06 | Pilot 11 bài, sửa lỗi, phát hành v0.2.0 | U05 | Gate P3 đủ evidence |
 | U07 | M02, benchmark mẫu và checkpoint | U06 | 3 bài READY |
@@ -272,7 +272,7 @@ Các mục dưới đây đều PLANNED. Người biên soạn hoặc trợ lý 
 | U13 | Prerequisites Builder, M09, M10, M11 | U12 | Từng module đủ bài và evidence |
 | U14 | Capstone Builder, QA toàn khóa và release | U13 | Gate P6–P7 đạt; v1.0.0 |
 
-Ưu tiên triển khai tiếp: **U03 → U04 → U05 → U06**. Chưa mở rộng sang phần nâng cao trước khi sửa các lỗi người mới gặp ở đợt đầu.
+Ưu tiên triển khai tiếp: **U05 → U06** để hoàn tất P3 trước khi mở rộng sang M02. Chưa mở rộng sang phần nâng cao trước khi sửa các lỗi người mới gặp ở đợt đầu.
 
 ## 14. Ước lượng và cách điều chỉnh
 
