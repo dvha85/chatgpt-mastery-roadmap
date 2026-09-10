@@ -5,15 +5,17 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 Khóa học được viết **song ngữ English–Tiếng Việt** để đồng thời xây năng lực sử dụng ChatGPT và khả năng đọc/viết tiếng Anh chuyên ngành AI. Thuật ngữ kỹ thuật giữ tên tiếng Anh chuẩn và luôn có giải thích tiếng Việt theo ngữ cảnh.
 
 > Mục tiêu phát hành gần nhất: v0.2.0  
-> Trạng thái hiện tại: preview — P2 content complete, P3 labs/pilot pending  
+> Trạng thái hiện tại: preview — P2 complete, U05 pre-pilot labs/assessment work complete, U06 beginner pilot pending  
 > Source snapshot: 2026-09-10  
 > Nguyên tắc: official-source-first, practice-first, verify-before-trust.
 
 ## Mức độ hoàn thiện hiện tại
 
-Repo hiện có **11 bài READY**: 4 bài BOOT, 3 bài M00 và 4 bài M01. Các lesson M02–M11 vẫn được phát hành dần. Người mới có thể bắt đầu bằng BOOT.1 và theo dõi trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
+Repo hiện có **11 bài READY**: 4 bài BOOT, 3 bài M00 và 4 bài M01. Ngoài lesson, repo đã có **3 guided Prompt Labs**, dữ liệu giả lập có ground truth, Evaluation Lab, assessment guide và answer-key/remediation map. Các lesson M02–M11 vẫn được phát hành dần.
 
-Phạm vi nội dung P2 đã hoàn tất. Bước tiếp theo theo [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md) là **P3 — Labs, PASS, beginner pilot và gate phát hành v0.2.0**. Chưa coi preview hiện tại là bản đã xác nhận khả năng tự học qua pilot.
+Người mới có thể bắt đầu bằng [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md), theo [START-HERE](START-HERE.md) và kiểm tra trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
+
+Phạm vi nội dung P2 và phần self-QA trước pilot của U05 đã hoàn tất. Bước tiếp theo theo [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md) là **U06 — beginner pilot thật, sửa blocker, retest và quyết định phát hành v0.2.0**. Chưa coi preview hiện tại là bản đã xác nhận khả năng tự học qua người mới thật.
 
 ## Mục tiêu
 
@@ -85,6 +87,16 @@ Chi tiết: [STUDY-METHOD.md](STUDY-METHOD.md)
 
 Mọi lesson tuân theo [Bilingual Lesson Standard](docs/BILINGUAL-LESSON-STANDARD.md) và dùng [LESSON-TEMPLATE.md](LESSON-TEMPLATE.md). Từ vựng quan trọng được tích lũy trong [GLOSSARY.md](GLOSSARY.md). English exposure tăng dần từ Stage A đến Stage C nhưng tất cả bài vẫn giữ giải thích tiếng Việt.
 
+### Practice system / Hệ thống thực hành
+
+Sau M01.4, dùng [Prompt Lab](labs/PROMPT-LAB.md) và ba bài mẫu:
+
+- [P-001 — Summary](labs/examples/P-001-summary.md)
+- [P-002 — Planning](labs/examples/P-002-planning.md)
+- [P-003 — Comparison](labs/examples/P-003-comparison.md)
+
+Sau đó chấm bằng [Evaluation Lab](labs/EVALUATION-LAB.md) và checkpoint trong [assessments/](assessments/README.md). Dữ liệu lab là giả lập và có ground truth trong [labs/data/sample-brief.md](labs/data/sample-brief.md).
+
 ## Bắt đầu
 
 Mở [START-HERE.md](START-HERE.md) để chọn đường học, kiểm tra bài READY, lưu evidence và xử lý khi thiếu tính năng. Xem [CONTENT-STATUS.md](docs/CONTENT-STATUS.md) trước khi bắt đầu từng lesson.
@@ -122,6 +134,8 @@ chatgpt-mastery-roadmap/
 │   ├── M10-api-mcp-agents/
 │   └── M11-agentic-system-design/
 ├── assessments/
+│   ├── README.md
+│   ├── ANSWER-KEY.md
 │   ├── BOOT-CHECK.md
 │   ├── M00-CHECK.md
 │   └── M01-CHECK.md
@@ -131,7 +145,14 @@ chatgpt-mastery-roadmap/
 ├── labs/
 │   ├── PROMPT-LAB.md
 │   ├── EVALUATION-LAB.md
+│   ├── data/
+│   │   ├── README.md
+│   │   └── sample-brief.md
 │   └── examples/
+│       ├── P-001-summary.md
+│       ├── P-002-planning.md
+│       ├── P-003-comparison.md
+│       └── U05-qa-check.md
 ├── capstone/
 │   └── README.md
 └── docs/
@@ -141,6 +162,7 @@ chatgpt-mastery-roadmap/
     ├── CONTENT-STATUS.md
     ├── FEATURE-AVAILABILITY.md
     ├── TROUBLESHOOTING.md
+    ├── BEGINNER-PILOT.md
     └── UPDATE-PLAN.md
 ```
 
