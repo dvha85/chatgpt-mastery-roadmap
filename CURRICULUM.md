@@ -27,16 +27,21 @@ Lưu prompt, kết quả, verification và reflection mà không đưa secret/d�
 
 ### M00 — Mental model & choosing the right surface
 
-**M00.1 — Chat vs ChatGPT Work vs Codex**  
-Hiểu ba bề mặt, khi nào dùng từng loại, khi nào không nên dùng.
+> **Status:** READY. Ba lesson M00 và bộ M00 Check đã được phát hành trong U03.
 
-**M00.2 — ChatGPT thực sự làm gì khi trả lời**  
-Model, context, tools, uncertainty, hallucination và giới hạn.
+**[M00.1 — Chat vs ChatGPT Work vs Codex](modules/M00-mental-model/M00.1-chat-work-codex.md)**  
+Hiểu ba bề mặt, khi nào dùng từng loại, khi nào không nên dùng; phân biệt surface với tool.
 
-**M00.3 — Outcome → Context → Tools → Verification**  
-Mental model để giao việc thay vì chỉ “viết prompt”.
+**[M00.2 — How ChatGPT works / ChatGPT tạo câu trả lời như thế nào](modules/M00-mental-model/M00.2-how-chatgpt-works.md)**  
+Hiểu model, context, tools, uncertainty, hallucination và giới hạn; biết vì sao câu trả lời tự tin vẫn cần kiểm chứng.
 
-**PASS M00:** nhận 10 tình huống thực tế và chọn đúng surface/tool với lý do.
+**[M00.3 — Task Brief and Verification / Giao việc và kiểm chứng](modules/M00-mental-model/M00.3-task-and-verification.md)**  
+Dùng mental model `Outcome → Context → Tools → Verification`, thêm boundaries và acceptance criteria khi cần.
+
+**[M00 Check — 10 tình huống thực hành](assessments/M00-CHECK.md)**  
+Chọn surface/tool, viết task brief, xác định điểm cần verification và so với đáp án giải thích.
+
+**PASS M00:** đạt ít nhất 16/20 ở M00 Check; giải thích đúng Chat, Work, Codex, model, context, tool và surface; viết được ít nhất một task brief O-C-T-V hoàn chỉnh; kiểm chứng được ít nhất một claim bằng nguồn, phép tính, test hoặc human review phù hợp.
 
 ### M01 — Prompting as task specification
 
