@@ -14,7 +14,8 @@
 
 - Source snapshot: 2026-09-10
 - Mục tiêu: **56 lesson** (4 BOOT + 52 lesson M00–M11)
-- Hiện tại: **7 READY, 49 PLANNED**; BOOT và M00 đã có bài giảng, các module M01–M11 vẫn đang triển khai.
+- Hiện tại: **11 READY, 45 PLANNED**; BOOT, M00 và M01 đã có bài giảng. M02–M11 vẫn đang triển khai.
+- Gate P2 content scope: **complete**; P3 labs/pilot/release gate vẫn chưa hoàn tất.
 
 ## Lesson registry
 
@@ -27,10 +28,10 @@
 | M00.1 | `modules/M00-mental-model/M00.1-chat-work-codex.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
 | M00.2 | `modules/M00-mental-model/M00.2-how-chatgpt-works.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
 | M00.3 | `modules/M00-mental-model/M00.3-task-and-verification.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
-| M01.1 | `modules/M01-prompting/M01.1-prompt-foundations.md` | PLANNED | — | — |
-| M01.2 | `modules/M01-prompting/M01.2-iterate-and-decompose.md` | PLANNED | — | — |
-| M01.3 | `modules/M01-prompting/M01.3-output-contracts.md` | PLANNED | — | — |
-| M01.4 | `modules/M01-prompting/M01.4-verify-answers.md` | PLANNED | — | — |
+| M01.1 | `modules/M01-prompting/M01.1-prompt-foundations.md` | READY | 2026-09-10 | `labs/examples/M01-qa-check.md` |
+| M01.2 | `modules/M01-prompting/M01.2-iterate-and-decompose.md` | READY | 2026-09-10 | `labs/examples/M01-qa-check.md` |
+| M01.3 | `modules/M01-prompting/M01.3-output-contracts.md` | READY | 2026-09-10 | `labs/examples/M01-qa-check.md` |
+| M01.4 | `modules/M01-prompting/M01.4-verify-answers.md` | READY | 2026-09-10 | `labs/examples/M01-qa-check.md` |
 | M02.1 | `modules/M02-models-reasoning/M02.1-model-selection.md` | PLANNED | — | — |
 | M02.2 | `modules/M02-models-reasoning/M02.2-reasoning-effort.md` | PLANNED | — | — |
 | M02.3 | `modules/M02-models-reasoning/M02.3-personal-benchmark.md` | PLANNED | — | — |
@@ -81,6 +82,7 @@
 
 - BOOT.1–BOOT.4 đã được kiểm tra theo [BOOT QA checklist](../labs/examples/BOOT-qa-check.md).
 - M00.1–M00.3 và bộ 10 tình huống đã được kiểm tra theo [M00 QA checklist](../labs/examples/M00-qa-check.md).
+- M01.1–M01.4 và M01 Check đã được kiểm tra theo [M01 QA checklist](../labs/examples/M01-qa-check.md).
 - `READY` là trạng thái tài liệu; người học vẫn bắt đầu với `NOT STARTED` trong PROGRESS.
 
 ## Quy trình đổi trạng thái
