@@ -6,7 +6,7 @@
 
 ## Stage 0 — Getting started / Khởi động
 
- > **Status:** READY. Bốn lesson BOOT đã được phát hành trong U02.
+> **Status:** READY. Bốn lesson BOOT đã được phát hành trong U02.
 
 **[BOOT.1 — First chat / Cuộc chat đầu tiên](modules/BOOT-getting-started/BOOT.1-first-chat.md)**  
 Mở ChatGPT, gửi yêu cầu đầu tiên và nhận biết prompt/response.
@@ -45,19 +45,24 @@ Chọn surface/tool, viết task brief, xác định điểm cần verification 
 
 ### M01 — Prompting as task specification
 
-**M01.1 — Goal + Context + Output + Boundaries**  
-Khung prompt nền tảng.
+> **Status:** READY. Bốn lesson M01 và M01 Check đã được phát hành trong U04; P2 content scope hoàn tất.
 
-**M01.2 — Decomposition & iterative prompting**  
-Chia việc phức tạp, bổ sung context, steering giữa chừng.
+**[M01.1 — Prompt Foundations / Nền tảng viết yêu cầu](modules/M01-prompting/M01.1-prompt-foundations.md)**  
+Goal + Context + Output + Boundaries; prompt ngắn vẫn tốt nếu đủ thông tin và chỉ thêm context có ích.
 
-**M01.3 — Output contracts**  
-Format, schema, checklist, acceptance criteria, examples.
+**[M01.2 — Iterate and Decompose / Lặp lại và chia nhỏ tác vụ](modules/M01-prompting/M01.2-iterate-and-decompose.md)**  
+Bổ sung thông tin bằng follow-up có mục tiêu, chia task tại verification boundaries, dùng checkpoints và biết khi nào mở chat mới.
 
-**M01.4 — Verification prompts**  
-Yêu cầu nguồn, kiểm tra giả định, so sánh, test và phản biện kết quả.
+**[M01.3 — Output Contracts / Hợp đồng đầu ra](modules/M01-prompting/M01.3-output-contracts.md)**  
+Format, required fields, missing-data rules, checklist và acceptance criteria; schema kỹ thuật được để dành cho builder track.
 
-**PASS M01:** biến 5 yêu cầu mơ hồ thành task spec có thể kiểm tra.
+**[M01.4 — Verify Answers / Kiểm chứng câu trả lời](modules/M01-prompting/M01.4-verify-answers.md)**  
+Claim → Evidence → Conclusion; kiểm source, calculation, test, assumptions và dùng correction prompt khi phát hiện unsupported claim.
+
+**[M01 Check — 5 task specifications](assessments/M01-CHECK.md)**  
+Viết lại 5 yêu cầu mơ hồ thành task spec có thể chạy và kiểm; ít nhất một task phải có response + verification evidence thật.
+
+**PASS M01:** nộp đủ 5/5 task spec; ít nhất 4/5 đạt mức 2 theo rubric, task còn lại ít nhất mức 1; chạy và kiểm ít nhất một spec; không dùng lời tự xác nhận của AI thay cho evidence.
 
 ### M02 — Models & reasoning
 
