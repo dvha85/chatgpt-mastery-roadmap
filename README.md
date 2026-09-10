@@ -4,9 +4,15 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 
 Khóa học được viết **song ngữ English–Tiếng Việt** để đồng thời xây năng lực sử dụng ChatGPT và khả năng đọc/viết tiếng Anh chuyên ngành AI. Thuật ngữ kỹ thuật giữ tên tiếng Anh chuẩn và luôn có giải thích tiếng Việt theo ngữ cảnh.
 
-> Phiên bản: v0.1.1  
+> Phiên bản: v0.1.2  
 > Source snapshot: 2026-09-10  
 > Nguyên tắc: official-source-first, practice-first, verify-before-trust.
+
+## Mức độ hoàn thiện hiện tại
+
+Repo hiện có **đề cương 52 bài trong 12 module**, tiêu chuẩn song ngữ và mẫu thực hành; **chưa có bài giảng chi tiết để người mới tự học trọn lộ trình**. Các mục tiêu bên dưới là mục tiêu của khóa học khi được hoàn thiện.
+
+Xem [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md): bổ sung 4 bài BOOT, hoàn thiện M00–M01 trước, rồi phát triển khóa nền tảng và các chặng nâng cao. Kế hoạch có danh sách file, thứ tự triển khai, tiêu chí nghiệm thu và ước lượng công sức. Các bài mới vẫn ở trạng thái dự kiến.
 
 ## Mục tiêu
 
@@ -80,6 +86,8 @@ Mọi lesson tuân theo [Bilingual Lesson Standard](docs/BILINGUAL-LESSON-STANDA
 
 ## Bắt đầu
 
+> Các bước dưới đây là trình tự trong đề cương hiện tại. M00.1 chưa có bài giảng chi tiết; phần BOOT sẽ được bổ sung theo [kế hoạch cập nhật](docs/UPDATE-PLAN.md). Chỉ bắt đầu đường học mới khi bài tương ứng đã được phát hành.
+
 1. Đọc [CURRICULUM.md](CURRICULUM.md).
 2. Đọc [STUDY-METHOD.md](STUDY-METHOD.md).
 3. Mở [PROGRESS.md](PROGRESS.md).
@@ -118,7 +126,8 @@ chatgpt-mastery-roadmap/
 │   └── README.md
 └── docs/
     ├── ROADMAP-DESIGN.md
-    └── BILINGUAL-LESSON-STANDARD.md
+    ├── BILINGUAL-LESSON-STANDARD.md
+    └── UPDATE-PLAN.md
 ```
 
 ## Nguồn học
@@ -141,3 +150,4 @@ ChatGPT thay đổi nhanh. Trước khi viết hoặc cập nhật một lesson:
 2. ghi ngày source snapshot;
 3. phân biệt nguyên lý bền vững với UI/tính năng có thể đổi;
 4. không giữ hướng dẫn đã deprecated chỉ vì từng đúng trước đây.
+
