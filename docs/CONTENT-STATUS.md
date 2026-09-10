@@ -14,7 +14,7 @@
 
 - Source snapshot: 2026-09-10
 - Mục tiêu: **56 lesson** (4 BOOT + 52 lesson M00–M11)
-- Hiện tại: **4 READY, 52 PLANNED**; BOOT đã có bài giảng, các module M00–M11 vẫn đang triển khai.
+- Hiện tại: **7 READY, 49 PLANNED**; BOOT và M00 đã có bài giảng, các module M01–M11 vẫn đang triển khai.
 
 ## Lesson registry
 
@@ -24,9 +24,9 @@
 | BOOT.2 | `modules/BOOT-getting-started/BOOT.2-conversation-basics.md` | READY | 2026-09-10 | `labs/examples/BOOT-qa-check.md` |
 | BOOT.3 | `modules/BOOT-getting-started/BOOT.3-safe-use-and-verification.md` | READY | 2026-09-10 | `labs/examples/BOOT-qa-check.md` |
 | BOOT.4 | `modules/BOOT-getting-started/BOOT.4-save-evidence.md` | READY | 2026-09-10 | `labs/examples/BOOT-qa-check.md` |
-| M00.1 | `modules/M00-mental-model/M00.1-chat-work-codex.md` | PLANNED | — | — |
-| M00.2 | `modules/M00-mental-model/M00.2-how-chatgpt-works.md` | PLANNED | — | — |
-| M00.3 | `modules/M00-mental-model/M00.3-task-and-verification.md` | PLANNED | — | — |
+| M00.1 | `modules/M00-mental-model/M00.1-chat-work-codex.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
+| M00.2 | `modules/M00-mental-model/M00.2-how-chatgpt-works.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
+| M00.3 | `modules/M00-mental-model/M00.3-task-and-verification.md` | READY | 2026-09-10 | `labs/examples/M00-qa-check.md` |
 | M01.1 | `modules/M01-prompting/M01.1-prompt-foundations.md` | PLANNED | — | — |
 | M01.2 | `modules/M01-prompting/M01.2-iterate-and-decompose.md` | PLANNED | — | — |
 | M01.3 | `modules/M01-prompting/M01.3-output-contracts.md` | PLANNED | — | — |
@@ -77,9 +77,11 @@
 | M11.4 | `modules/M11-agentic-system-design/M11.4-observability.md` | PLANNED | — | — |
 | M11.5 | `modules/M11-agentic-system-design/M11.5-production-readiness.md` | PLANNED | — | — |
 
-## BOOT QA
+## Module QA
 
-BOOT.1–BOOT.4 đã được kiểm tra theo [QA checklist](../labs/examples/BOOT-qa-check.md). `READY` là trạng thái tài liệu; người học vẫn bắt đầu với `NOT STARTED` trong PROGRESS.
+- BOOT.1–BOOT.4 đã được kiểm tra theo [BOOT QA checklist](../labs/examples/BOOT-qa-check.md).
+- M00.1–M00.3 và bộ 10 tình huống đã được kiểm tra theo [M00 QA checklist](../labs/examples/M00-qa-check.md).
+- `READY` là trạng thái tài liệu; người học vẫn bắt đầu với `NOT STARTED` trong PROGRESS.
 
 ## Quy trình đổi trạng thái
 
