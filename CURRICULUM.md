@@ -1,0 +1,225 @@
+# Curriculum
+
+> **Language format / Định dạng ngôn ngữ:** all lessons are bilingual English–Vietnamese. Technical terms use their canonical English names, with plain-English definitions, contextual Vietnamese explanations, examples, and a cumulative glossary. English exposure increases gradually across the three stages.
+
+## Stage A — ChatGPT Operator
+
+### M00 — Mental model & choosing the right surface
+
+**M00.1 — Chat vs ChatGPT Work vs Codex**  
+Hiểu ba bề mặt, khi nào dùng từng loại, khi nào không nên dùng.
+
+**M00.2 — ChatGPT thực sự làm gì khi trả lời**  
+Model, context, tools, uncertainty, hallucination và giới hạn.
+
+**M00.3 — Outcome → Context → Tools → Verification**  
+Mental model để giao việc thay vì chỉ “viết prompt”.
+
+**PASS M00:** nhận 10 tình huống thực tế và chọn đúng surface/tool với lý do.
+
+### M01 — Prompting as task specification
+
+**M01.1 — Goal + Context + Output + Boundaries**  
+Khung prompt nền tảng.
+
+**M01.2 — Decomposition & iterative prompting**  
+Chia việc phức tạp, bổ sung context, steering giữa chừng.
+
+**M01.3 — Output contracts**  
+Format, schema, checklist, acceptance criteria, examples.
+
+**M01.4 — Verification prompts**  
+Yêu cầu nguồn, kiểm tra giả định, so sánh, test và phản biện kết quả.
+
+**PASS M01:** biến 5 yêu cầu mơ hồ thành task spec có thể kiểm tra.
+
+### M02 — Models & reasoning
+
+**M02.1 — Model selection**  
+Không phải model mạnh nhất luôn là lựa chọn tốt nhất.
+
+**M02.2 — Reasoning effort**  
+Khi nào cần suy luận sâu; trade-off chất lượng, tốc độ và chi phí/quota.
+
+**M02.3 — Build your own task benchmark**  
+Đánh giá model bằng tác vụ của chính mình thay vì cảm giác.
+
+**PASS M02:** tạo mini benchmark 5 tác vụ và ghi quyết định model/reasoning cho từng loại.
+
+### M03 — Context, personalization, Projects & Memory
+
+**M03.1 — Context architecture**  
+Phân biệt nội dung chat hiện tại, file, project context và connected data.
+
+**M03.2 — Personalization & instructions**  
+Đưa preference bền vững vào đúng tầng.
+
+**M03.3 — Projects & chats**  
+Tổ chức công việc dài hạn, tách project, giữ context sạch.
+
+**M03.4 — Memory: khi nào hữu ích, khi nào không**  
+Không dùng memory như database hay source of truth.
+
+**M03.5 — Files as source context**  
+Upload, hỏi đúng phạm vi, trích dẫn và kiểm chứng nội dung file.
+
+**PASS M03:** thiết kế một Project thật với instructions, files và quy tắc context rõ ràng.
+
+### M04 — Web Search & Deep Research
+
+**M04.1 — Web Search**  
+Khi nào cần web, freshness, query formulation, citations.
+
+**M04.2 — Source quality**  
+Primary vs secondary sources, recency, conflicts, provenance.
+
+**M04.3 — Deep Research**  
+Khi nào search thường chưa đủ; scope, plan, source selection, review.
+
+**M04.4 — Research workflow**  
+Question → source plan → evidence → synthesis → verification → decision.
+
+**PASS M04:** hoàn thành một research memo có nguồn, claim-evidence mapping và phần uncertainty.
+
+---
+
+## Stage B — ChatGPT Power User
+
+### M05 — Files & multimodal work
+
+**M05.1 — Image inputs**  
+Phân tích screenshot, diagram, photo và visual evidence.
+
+**M05.2 — Image generation & editing**  
+Viết visual brief, iterative editing, consistency.
+
+**M05.3 — Documents, spreadsheets, presentations & PDFs**  
+Source data, output spec, review criteria và render/verify mindset.
+
+**M05.4 — Voice**  
+Khi voice tốt hơn text; capture, synthesis và follow-up.
+
+**PASS M05:** hoàn thành một tác vụ có ít nhất 2 modality và vòng review.
+
+### M06 — ChatGPT Work, Browser & Computer Use
+
+**M06.1 — ChatGPT Work**  
+Giao outcome thay vì từng câu hỏi nhỏ; reviewable deliverables.
+
+**M06.2 — Long-running work**  
+Definition of done, constraints, checkpoints, steering.
+
+**M06.3 — Browser vs Web Search**  
+Đọc/tương tác website so với chỉ lấy thông tin.
+
+**M06.4 — Computer Use**  
+Khi cần GUI interaction; confirmation points và rủi ro.
+
+**M06.5 — Permissions & sandboxing mindset**  
+Least privilege, destructive actions, review before commit/send/publish.
+
+**PASS M06:** viết task brief cho một công việc nhiều bước có tool choice, permissions và checkpoints.
+
+### M07 — Plugins & connected data
+
+**M07.1 — Built-in tool vs Plugin**  
+Chọn đúng nguồn năng lực.
+
+**M07.2 — Permissions & data boundaries**  
+Đọc/ghi, scope, connected accounts và nguyên tắc least privilege.
+
+**M07.3 — Connected workflow design**  
+Ví dụ: Gmail/Calendar/Drive/GitHub hoặc hệ thống tương đương.
+
+**M07.4 — Human-in-the-loop actions**  
+Phân biệt read, draft, modify, send/publish và hành động khó hoàn tác.
+
+**PASS M07:** thiết kế một workflow qua ít nhất 2 connected systems, nêu rõ quyền và điểm cần human review.
+
+### M08 — Skills & Scheduled Tasks
+
+**M08.1 — Skill vs Plugin**  
+Reusable instructions so với installable workflow + connected services.
+
+**M08.2 — Designing a reusable Skill**  
+Trigger, instructions, resources, scripts, verification.
+
+**M08.3 — Scheduled Tasks**  
+One-time, recurring và condition/event-driven workflows.
+
+**M08.4 — Automation reliability**  
+Idempotency, state, alert fatigue, retry, stop conditions, failure reporting.
+
+**M08.5 — Evaluate before automate**  
+Test thủ công trước, automation sau.
+
+**PASS M08:** biến một workflow thủ công đã test thành reusable workflow và automation spec.
+
+---
+
+## Stage C — Builder
+
+### M09 — Codex & GitHub
+
+**M09.1 — Codex surfaces**  
+ChatGPT/Codex app, CLI, IDE/cloud và lựa chọn theo tác vụ.
+
+**M09.2 — Repository context**  
+README, AGENTS.md, tests, conventions, scope.
+
+**M09.3 — Coding task specification**  
+Bugfix, feature, refactor, migration và acceptance tests.
+
+**M09.4 — GitHub workflow**  
+Issues, branches, commits, PR review, CI evidence.
+
+**M09.5 — Safe autonomous coding**  
+Sandbox, permissions, tests, diff review, rollback.
+
+**PASS M09:** hoàn thành một thay đổi repo nhỏ có test + commit/PR evidence.
+
+### M10 — API, MCP & Agents
+
+**M10.1 — ChatGPT vs API mental model**  
+Product workflow và programmable system khác nhau thế nào.
+
+**M10.2 — Responses API & tools**  
+Conversation state, tool calling, structured outputs.
+
+**M10.3 — MCP & connectors**  
+Chuẩn kết nối model với tools/data.
+
+**M10.4 — Agents SDK**  
+Agent definitions, orchestration, guardrails, state, observability.
+
+**M10.5 — Evals**  
+Đánh giá chất lượng workflow thay vì demo một lần.
+
+**PASS M10:** vẽ architecture của một agent và định nghĩa ít nhất 5 eval cases.
+
+### M11 — Agentic system design
+
+**M11.1 — Workflow before agent**  
+Không dùng agent khi deterministic workflow đủ tốt.
+
+**M11.2 — State, tools & boundaries**  
+Ai sở hữu state, tool contract, permission boundary.
+
+**M11.3 — Human review architecture**  
+Checkpoint dựa trên risk/cost/reversibility.
+
+**M11.4 — Observability & improvement loop**  
+Logs, traces, errors, evals, feedback và versioning.
+
+**M11.5 — Production readiness**  
+Reliability, security, cost, compliance, fallback.
+
+**PASS M11:** system design review cho capstone trước khi build.
+
+---
+
+## Capstone — Real workflow
+
+Capstone mặc định: thiết kế một workflow hỗ trợ **nghiên cứu, quyết định hoặc vận hành bot/affiliate project** bằng ChatGPT + nguồn dữ liệu + tool + automation, nhưng giữ human review ở các hành động có rủi ro.
+
+Xem [capstone/README.md](capstone/README.md).
