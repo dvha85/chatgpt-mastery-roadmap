@@ -4,15 +4,16 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 
 Khóa học được viết **song ngữ English–Tiếng Việt** để đồng thời xây năng lực sử dụng ChatGPT và khả năng đọc/viết tiếng Anh chuyên ngành AI. Thuật ngữ kỹ thuật giữ tên tiếng Anh chuẩn và luôn có giải thích tiếng Việt theo ngữ cảnh.
 
-> Phiên bản: v0.2.0  
+> Mục tiêu phát hành gần nhất: v0.2.0  
+> Trạng thái hiện tại: preview — P2 content complete, P3 labs/pilot pending  
 > Source snapshot: 2026-09-10  
 > Nguyên tắc: official-source-first, practice-first, verify-before-trust.
 
 ## Mức độ hoàn thiện hiện tại
 
-Repo hiện có **4 bài BOOT READY** và đề cương 52 bài trong 12 module; các lesson M00–M11 vẫn được phát hành dần. Người mới có thể bắt đầu bằng BOOT.1 và theo dõi trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
+Repo hiện có **11 bài READY**: 4 bài BOOT, 3 bài M00 và 4 bài M01. Các lesson M02–M11 vẫn được phát hành dần. Người mới có thể bắt đầu bằng BOOT.1 và theo dõi trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
 
-Xem [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md): BOOT đã hoàn thành; bước tiếp theo là M00–M01. Kế hoạch có danh sách file, thứ tự triển khai, tiêu chí nghiệm thu và ước lượng công sức.
+Phạm vi nội dung P2 đã hoàn tất. Bước tiếp theo theo [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md) là **P3 — Labs, PASS, beginner pilot và gate phát hành v0.2.0**. Chưa coi preview hiện tại là bản đã xác nhận khả năng tự học qua pilot.
 
 ## Mục tiêu
 
@@ -120,12 +121,17 @@ chatgpt-mastery-roadmap/
 │   ├── M09-codex-github/
 │   ├── M10-api-mcp-agents/
 │   └── M11-agentic-system-design/
+├── assessments/
+│   ├── BOOT-CHECK.md
+│   ├── M00-CHECK.md
+│   └── M01-CHECK.md
 ├── evidence/
 │   ├── README.md
 │   └── TEMPLATE.md
 ├── labs/
 │   ├── PROMPT-LAB.md
-│   └── EVALUATION-LAB.md
+│   ├── EVALUATION-LAB.md
+│   └── examples/
 ├── capstone/
 │   └── README.md
 └── docs/
@@ -158,4 +164,3 @@ ChatGPT thay đổi nhanh. Trước khi viết hoặc cập nhật một lesson:
 2. ghi ngày source snapshot;
 3. phân biệt nguyên lý bền vững với UI/tính năng có thể đổi;
 4. không giữ hướng dẫn đã deprecated chỉ vì từng đúng trước đây.
-
