@@ -15,7 +15,9 @@
 - Source snapshot: 2026-09-10
 - Mục tiêu: **56 lesson** (4 BOOT + 52 lesson M00–M11)
 - Hiện tại: **11 READY, 45 PLANNED**; BOOT, M00 và M01 đã có bài giảng. M02–M11 vẫn đang triển khai.
-- Gate P2 content scope: **complete**; P3 labs/pilot/release gate vẫn chưa hoàn tất.
+- Gate P2 content scope: **complete**.
+- U05 pre-pilot P3 work: **complete** — 3 guided labs, fixed synthetic data, Evaluation Lab, assessment guide/answer key và pre-pilot QA đã có.
+- P3 release gate: **NOT YET PASS** — còn U06 beginner pilot thật, sửa blocker/retest và release decision.
 
 ## Lesson registry
 
@@ -83,6 +85,8 @@
 - BOOT.1–BOOT.4 đã được kiểm tra theo [BOOT QA checklist](../labs/examples/BOOT-qa-check.md).
 - M00.1–M00.3 và bộ 10 tình huống đã được kiểm tra theo [M00 QA checklist](../labs/examples/M00-qa-check.md).
 - M01.1–M01.4 và M01 Check đã được kiểm tra theo [M01 QA checklist](../labs/examples/M01-qa-check.md).
+- U05 Prompt Labs, fixed data, Evaluation Lab và assessment integration đã được kiểm tra theo [U05 Pre-Pilot QA](../labs/examples/U05-qa-check.md).
+- [Beginner Pilot](BEGINNER-PILOT.md) đã được chuẩn bị nhưng chưa chạy; không dùng self-QA để tuyên bố đã validated với người mới thật.
 - `READY` là trạng thái tài liệu; người học vẫn bắt đầu với `NOT STARTED` trong PROGRESS.
 
 ## Quy trình đổi trạng thái
@@ -90,7 +94,7 @@
 1. Viết bài theo [LESSON-TEMPLATE](../LESSON-TEMPLATE.md).
 2. Ghi source snapshot, môi trường, dữ liệu, fallback và rubric.
 3. Reviewer kiểm tra ví dụ, bài tự làm, đáp án, song ngữ, link và privacy.
-4. Ghi pilot và QA evidence trước khi chuyển READY.
+4. Ghi QA evidence; với release gate yêu cầu pilot, pilot thật phải được ghi riêng trước khi tuyên bố đã validated khả năng tự học.
 5. Khi nguồn/UI đổi, chuyển NEEDS UPDATE và ghi phạm vi.
 
 `READY` của tài liệu không tự động làm `PROGRESS` của người học thành `PASS`.
