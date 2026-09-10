@@ -4,6 +4,8 @@
 > **Module:** BOOT  
 > **Source snapshot:** 2026-09-10  
 > **Prerequisite:** BOOT.3  
+> **Previous lesson:** [BOOT.3 — Safe Use & Verification](BOOT.3-safe-use-and-verification.md)  
+> **Next lesson:** [M00.1 — Chat vs ChatGPT Work vs Codex](../M00-mental-model/M00.1-chat-work-codex.md)  
 > **Estimated time:** 25–35 minutes  
 > **Environment tested:** ChatGPT + trình duyệt GitHub hoặc ghi chú riêng  
 > **Account or plan assumption:** không cần Git, CLI hay API key  
@@ -46,7 +48,6 @@ Chuẩn bị một prompt và response đã làm sạch từ BOOT.1–BOOT.3. B�
 
 **Plain English:** A label that describes current progress.  
 **Tiếng Việt:** `IN PROGRESS` và `REVIEW` được dùng trước `PASS`; không nhảy trạng thái vì đã đọc.
-
 
 ## 3. Core concept — Khái niệm cốt lõi
 
@@ -159,3 +160,7 @@ Lưu file evidence đã làm sạch hoặc ghi rõ vị trí private notes. Khô
 **What I learned / Tôi đã học được:** ...  
 **What confused me / Điều còn chưa rõ:** ...  
 **What I will use / Điều tôi sẽ áp dụng:** ...
+
+## 16. Navigation — Điều hướng
+
+← [BOOT.3 — Safe Use & Verification](BOOT.3-safe-use-and-verification.md) · [BOOT overview](README.md) · [M00.1 — Chat vs ChatGPT Work vs Codex](../M00-mental-model/M00.1-chat-work-codex.md) →
