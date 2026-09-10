@@ -3,8 +3,9 @@
 > Ngày lập: 2026-09-10  
 > Phiên bản kế hoạch: 1.0  
 > Baseline review: commit `9d70449b6309c3ce6c3e1289fae15bbbd4b9f20c`  
-> Trạng thái: PLANNED — đã lập kế hoạch; các giai đoạn triển khai bên dưới chưa hoàn thành.  
-> Phạm vi lần cập nhật này: lưu kế hoạch, bổ sung đường dẫn và thông báo mức hoàn thiện trong README, ghi CHANGELOG. Chưa phát hành bài giảng mới.
+> Trạng thái: IN PROGRESS — U01/P0 và U02/P1 đã triển khai; các gói sau vẫn theo kế hoạch.  
+> Current implementation: U01/P0 and U02/P1 are complete in the release commit that contains this update.
+> Phạm vi lần cập nhật này: hoàn thiện U01/P0, phát hành BOOT.1–BOOT.4 và cập nhật trạng thái, điều hướng, nguồn và evidence.
 
 ## 1. Mục tiêu và hiện trạng
 
@@ -67,7 +68,7 @@ Một bài dùng phương án mô phỏng chỉ được ghi nhận năng lực 
 
 ## 4. P0 — Chuẩn hóa điểm bắt đầu và hạ tầng học
 
-**Ưu tiên:** bắt buộc trước khi phát hành bài đầu. **Phụ thuộc:** không có. **Trạng thái:** PLANNED.
+**Ưu tiên:** bắt buộc trước khi phát hành bài đầu. **Phụ thuộc:** không có. **Trạng thái:** COMPLETED in U01.
 
 | File | Thao tác dự kiến | Nội dung cần có |
 |---|---|---|
@@ -89,7 +90,7 @@ Một bài dùng phương án mô phỏng chỉ được ghi nhận năng lực 
 
 ## 5. P1 — Bốn bài khởi động BOOT
 
-**Ưu tiên:** bắt buộc. **Phụ thuộc:** P0. **Thư mục:** `modules/BOOT-getting-started/`. **Trạng thái:** PLANNED.
+**Ưu tiên:** bắt buộc. **Phụ thuộc:** P0. **Thư mục:** `modules/BOOT-getting-started/`. **Trạng thái:** COMPLETED in U02.
 
 Tạo README module, 4 lesson bên dưới và bài kiểm tra `assessments/BOOT-CHECK.md`.
 
@@ -256,8 +257,8 @@ Các mục dưới đây đều PLANNED. Người biên soạn hoặc trợ lý 
 
 | ID | Công việc | Phụ thuộc | Điểm kết thúc để commit |
 |---|---|---|---|
-| U01 | Hướng bắt đầu, learning paths, content status, template | Kế hoạch này | Gate P0 đạt; không tạo link chết |
-| U02 | BOOT.1–BOOT.4, dữ liệu và evidence mẫu | U01 | Gate P1 đạt |
+| U01 | Hướng bắt đầu, learning paths, content status, template | Kế hoạch này | DONE — Gate P0 đã rà lại trong U01 completion pass |
+| U02 | BOOT.1–BOOT.4, dữ liệu và evidence mẫu | U01 | DONE — Gate P1 đạt; BOOT READY |
 | U03 | Ba lesson M00 và bộ 10 tình huống | U02 | M00 đủ READY và đáp án |
 | U04 | Bốn lesson M01 và bộ 5 task spec | U03 | M01 đủ READY và đáp án |
 | U05 | Ba lab mẫu, rubric và kiểm tra tổng hợp | U04 | Tự kiểm tra P3, còn pilot được ghi riêng |
@@ -271,7 +272,7 @@ Các mục dưới đây đều PLANNED. Người biên soạn hoặc trợ lý 
 | U13 | Prerequisites Builder, M09, M10, M11 | U12 | Từng module đủ bài và evidence |
 | U14 | Capstone Builder, QA toàn khóa và release | U13 | Gate P6–P7 đạt; v1.0.0 |
 
-Ưu tiên triển khai tiếp: **U01 → U02 → U03 → U04 → U05 → U06**. Chưa mở rộng sang phần nâng cao trước khi sửa các lỗi người mới gặp ở đợt đầu.
+Ưu tiên triển khai tiếp: **U03 → U04 → U05 → U06**. Chưa mở rộng sang phần nâng cao trước khi sửa các lỗi người mới gặp ở đợt đầu.
 
 ## 14. Ước lượng và cách điều chỉnh
 

@@ -4,15 +4,15 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 
 Khóa học được viết **song ngữ English–Tiếng Việt** để đồng thời xây năng lực sử dụng ChatGPT và khả năng đọc/viết tiếng Anh chuyên ngành AI. Thuật ngữ kỹ thuật giữ tên tiếng Anh chuẩn và luôn có giải thích tiếng Việt theo ngữ cảnh.
 
-> Phiên bản: v0.1.3  
+> Phiên bản: v0.2.0  
 > Source snapshot: 2026-09-10  
 > Nguyên tắc: official-source-first, practice-first, verify-before-trust.
 
 ## Mức độ hoàn thiện hiện tại
 
-Repo hiện có **đề cương 52 bài trong 12 module**, tiêu chuẩn song ngữ và mẫu thực hành; **chưa có bài giảng chi tiết để người mới tự học trọn lộ trình**. Các mục tiêu bên dưới là mục tiêu của khóa học khi được hoàn thiện.
+Repo hiện có **4 bài BOOT READY** và đề cương 52 bài trong 12 module; các lesson M00–M11 vẫn được phát hành dần. Người mới có thể bắt đầu bằng BOOT.1 và theo dõi trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
 
-Xem [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md): bổ sung 4 bài BOOT, hoàn thiện M00–M01 trước, rồi phát triển khóa nền tảng và các chặng nâng cao. Kế hoạch có danh sách file, thứ tự triển khai, tiêu chí nghiệm thu và ước lượng công sức. Các bài mới vẫn ở trạng thái dự kiến.
+Xem [kế hoạch cập nhật chi tiết](docs/UPDATE-PLAN.md): BOOT đã hoàn thành; bước tiếp theo là M00–M01. Kế hoạch có danh sách file, thứ tự triển khai, tiêu chí nghiệm thu và ước lượng công sức.
 
 ## Mục tiêu
 
@@ -92,7 +92,7 @@ Mở [START-HERE.md](START-HERE.md) để chọn đường học, kiểm tra bà
 2. Đọc [STUDY-METHOD.md](STUDY-METHOD.md) để biết vòng học và PASS.
 3. Mở [PROGRESS.md](PROGRESS.md) để ghi năng lực của bạn.
 4. Chỉ học lesson có `Content status = READY`; các lesson khác mới là đề cương/kế hoạch.
-5. Chỉ chuyển bài khi evidence của bạn đạt PASS.
+5. Cập nhật PROGRESS từ lúc bắt đầu; chỉ chuyển trạng thái sang PASS khi evidence của bạn đạt tiêu chí.
 
 ## Cấu trúc repo
 
@@ -131,6 +131,10 @@ chatgpt-mastery-roadmap/
 └── docs/
     ├── ROADMAP-DESIGN.md
     ├── BILINGUAL-LESSON-STANDARD.md
+    ├── LEARNING-PATHS.md
+    ├── CONTENT-STATUS.md
+    ├── FEATURE-AVAILABILITY.md
+    ├── TROUBLESHOOTING.md
     └── UPDATE-PLAN.md
 ```
 

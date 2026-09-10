@@ -6,21 +6,21 @@
 
 ## Stage 0 — Getting started / Khởi động
 
- > **Status:** PLANNED. File lesson BOOT sẽ được tạo trong U02; hiện chưa bài nào READY.
+ > **Status:** READY. Bốn lesson BOOT đã được phát hành trong U02.
 
-**BOOT.1 — First chat / Cuộc chat đầu tiên**  
+**[BOOT.1 — First chat / Cuộc chat đầu tiên](modules/BOOT-getting-started/BOOT.1-first-chat.md)**  
 Mở ChatGPT, gửi yêu cầu đầu tiên và nhận biết prompt/response.
 
-**BOOT.2 — Conversation basics / Thao tác hội thoại cơ bản**  
+**[BOOT.2 — Conversation basics / Thao tác hội thoại cơ bản](modules/BOOT-getting-started/BOOT.2-conversation-basics.md)**  
 Sửa, rút gọn, đổi format và nhận biết context của chat hiện tại.
 
-**BOOT.3 — Safe use & verification / Dùng an toàn và kiểm chứng**  
+**[BOOT.3 — Safe use & verification / Dùng an toàn và kiểm chứng](modules/BOOT-getting-started/BOOT.3-safe-use-and-verification.md)**  
 Hiểu câu trả lời có thể sai, kiểm tra một claim và dùng dữ liệu giả lập.
 
-**BOOT.4 — Save evidence / Lưu bằng chứng học tập**  
+**[BOOT.4 — Save evidence / Lưu bằng chứng học tập](modules/BOOT-getting-started/BOOT.4-save-evidence.md)**  
 Lưu prompt, kết quả, verification và reflection mà không đưa secret/dữ liệu riêng tư lên repo.
 
-**PASS BOOT:** hoàn thành 4 tác vụ, kiểm tra một claim và nộp evidence đã làm sạch.
+**PASS BOOT:** hoàn thành 4 bài, đạt BOOT Check và nộp evidence đã làm sạch.
 
 ---
 ## Stage A — ChatGPT Operator

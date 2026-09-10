@@ -178,3 +178,11 @@ Nếu thuật ngữ liên quan đến sản phẩm/tính năng cụ thể, phả
 - Không viết “hãy thực hành” nếu chưa có dữ liệu, prompt mẫu hoặc tiêu chí quan sát.
 - Ghi rõ nguyên lý bền vững và chi tiết giao diện có thể đổi.
 - Tính năng không có trên mọi tài khoản phải có fallback và nhãn `not tested`.
+
+## 7. Beginner accessibility — Khả năng tiếp cận cho người mới
+
+- Lesson phải giải thích bước thao tác trước khi dùng từ viết tắt hoặc tên tính năng.
+- Mỗi bài nên giới hạn khoảng 3–7 thuật ngữ mới và nhắc lại thuật ngữ cũ trước khi thêm từ mới.
+- Mỗi ví dụ chỉ rõ input, hành động, kết quả minh họa và cách kiểm tra.
+- Không viết “hãy thực hành” nếu chưa có dữ liệu, prompt mẫu hoặc tiêu chí quan sát.
+- Tính năng không có trên mọi tài khoản phải có fallback và nhãn `not tested`.

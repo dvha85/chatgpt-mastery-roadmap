@@ -2,6 +2,15 @@
 
 > Trạng thái: `NOT STARTED` | `IN PROGRESS` | `PASS` | `REVIEW`
 
+## Stage 0 — Getting started
+
+| Lesson | Status | Evidence | Review date |
+|---|---|---|---|
+| BOOT.1 First chat | NOT STARTED | | |
+| BOOT.2 Conversation basics | NOT STARTED | | |
+| BOOT.3 Safe use & verification | NOT STARTED | | |
+| BOOT.4 Save evidence | NOT STARTED | | |
+
 ## Stage A — Operator
 
 | Lesson | Status | Evidence | Review date |

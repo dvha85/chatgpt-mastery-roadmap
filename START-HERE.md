@@ -4,7 +4,7 @@
 
 ## Chưa từng dùng ChatGPT
 
-Chờ nhóm BOOT được phát hành rồi bắt đầu tại BOOT.1. Nhóm này dạy mở chat, gửi yêu cầu, sửa câu trả lời, kiểm tra thông tin và lưu evidence. Hiện BOOT ở trạng thái PLANNED.
+Bắt đầu tại [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md). Nhóm BOOT dạy mở chat, gửi yêu cầu, sửa câu trả lời, kiểm tra thông tin và lưu evidence. Bốn bài BOOT hiện đã READY.
 
 ## Đã dùng ChatGPT
 
@@ -16,7 +16,7 @@ Chờ nhóm BOOT được phát hành rồi bắt đầu tại BOOT.1. Nhóm nà
 2. Làm ví dụ có hướng dẫn, rồi làm bài tự làm bằng dữ liệu không nhạy cảm.
 3. Kiểm tra nguồn, phép tính, giả định hoặc format.
 4. Lưu prompt, kết quả, verification, failure mode và reflection theo [Evidence Template](evidence/TEMPLATE.md).
-5. Chỉ cập nhật [PROGRESS.md](PROGRESS.md) sau khi evidence của bạn đạt PASS.
+5. Cập nhật [PROGRESS.md](PROGRESS.md) từ lúc bắt đầu; chỉ chuyển trạng thái sang PASS khi evidence của bạn đạt tiêu chí.
 
 ## Chuẩn bị
 

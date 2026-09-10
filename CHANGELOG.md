@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.0 — 2026-09-10
+
+- Hoàn thiện U01/P0: sửa hướng dẫn lưu private repository, đồng bộ tên lesson, rubric, metadata tính năng, thời lượng session và điều hướng.
+- Triển khai U02/P1: thêm BOOT.1–BOOT.4 song ngữ, module README, dữ liệu mẫu, BOOT Check, evidence mẫu và QA checklist.
+- Đánh dấu 4 lesson BOOT READY; 52 lesson M00–M11 tiếp tục PLANNED.
+
 ## v0.1.3 — 2026-09-10
 
 - Triển khai U01/P0: thêm Start Here, learning paths, content status, feature availability, troubleshooting và evidence workflow.

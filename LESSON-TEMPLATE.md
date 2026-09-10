@@ -4,11 +4,13 @@
 > **Module:** MXX  
 > **Source snapshot:** YYYY-MM-DD  
 > **Prerequisite:** lesson ID hoặc `none`  
+> **Previous lesson:** lesson ID hoặc `none`  
+> **Next lesson:** lesson ID hoặc `not published`  
 > **Estimated time:** 30–60 minutes  
 > **Environment tested:** web / desktop / mobile / API / other  
 > **Account or plan assumption:** ...  
 > **Feature status:** available / limited / not tested  
-> **Status:** PLANNED / DRAFT / IN REVIEW / READY  
+> **Content status:** PLANNED / DRAFT / IN REVIEW / READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
 ## 0. Access and setup — Điều kiện truy cập
@@ -140,7 +142,7 @@ Sau bài này, bạn có thể:
 
 ## 13. Evidence to save — Evidence cần lưu
 
-Liệt kê prompt, kết quả, verification, failure mode và reflection cần lưu. Dùng [evidence template](evidence/TEMPLATE.md).
+Liệt kê prompt, kết quả, verification, failure mode và reflection cần lưu. Dùng file `evidence/TEMPLATE.md` ở repo root; đường dẫn tương đối cần điều chỉnh theo vị trí lesson.
 
 ## 14. Official sources — Nguồn chính thức
 

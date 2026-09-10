@@ -52,3 +52,9 @@ Khi có xung đột:
 Danh sách trên là index. Mỗi lesson phải trích dẫn trang trực tiếp, ghi source snapshot, surface đã kiểm tra và phần có thể đổi. Khi chưa xác minh được, ghi uncertainty và không viết thao tác UI như sự thật.
 
 Xem [Feature Availability](docs/FEATURE-AVAILABILITY.md) trước khi phát hành lesson.
+
+## BOOT sources
+
+- First conversation and prompt basics: https://openai.com/academy/getting-started/
+- Prompting and follow-up examples: https://learn.chatgpt.com/docs/prompting
+- GitHub evidence storage reference: https://docs.github.com/en/pull-requests/reference/forks

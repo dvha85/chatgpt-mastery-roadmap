@@ -65,22 +65,24 @@ Không lưu secret, token, password hoặc dữ liệu riêng tư không cần t
 
 ## 5. Một session học mẫu
 
-- 10 phút: recall bài trước.
-- 20 phút: đọc docs.
-- 30 phút: guided exercise.
-- 30 phút: real-world exercise.
-- 15 phút: verification/critique.
-- 10 phút: update PROGRESS + notes.
+- 5 phút: recall bài trước.
+- 10 phút: đọc mục tiêu và nguồn.
+- 15 phút: guided exercise.
+- 10 phút: real-world exercise.
+- 5 phút: verification/critique.
+- 5 phút: update PROGRESS + notes.
 
 Có thể rút ngắn hoặc kéo dài, nhưng không bỏ bước verify.
 
-## 5. Beginner mode — Chế độ người mới
+## 6. Beginner mode — Chế độ người mới
 Nếu đây là lần đầu dùng ChatGPT, làm theo [START-HERE.md](START-HERE.md) và chỉ mở lesson READY. Một buổi học nên có một mục tiêu nhỏ, input không nhạy cảm và kết quả quan sát được.
 
 Nếu bị kẹt, ghi bước và lỗi trước khi hỏi lại. Nếu tính năng không có, làm fallback và ghi rõ giới hạn; fallback không chứng minh bạn đã dùng tính năng thật.
 
-## 6. Evidence và quyền riêng tư
-Evidence là đầu ra của người học. Dùng [evidence checklist](evidence/README.md), thay dữ liệu thật bằng dữ liệu giả lập và xóa secret. Có thể dùng private notes hoặc private fork.
+## 7. Evidence và quyền riêng tư
+Evidence là đầu ra của người học. Dùng [evidence checklist](evidence/README.md), thay dữ liệu thật bằng dữ liệu giả lập và xóa secret. Có thể dùng private notes hoặc private repository độc lập.
 
-## 7. Ôn tập khi chưa PASS
+## 8. Ôn tập khi chưa PASS
 Chấm từng năng lực Explain, Execute, Diagnose, Verify, Transfer và English. Ôn đúng tiêu chí thiếu, làm input khác và ghi lần đánh giá lại.
+
+Một session mục tiêu là 50 phút; có thể rút còn 30 phút bằng cách gộp recall với đọc docs hoặc làm một bài transfer ngắn hơn. Không bỏ verification.
