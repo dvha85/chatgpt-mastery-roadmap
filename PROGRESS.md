@@ -80,4 +80,4 @@
 
 ## Current next lesson
 
-**M00.1 — Chat vs ChatGPT Work vs Codex**
+**BOOT.1 — First chat**
