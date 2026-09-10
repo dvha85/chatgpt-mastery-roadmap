@@ -18,6 +18,18 @@ Bắt đầu tại [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md). 
 4. Lưu prompt, kết quả, verification, failure mode và reflection theo [Evidence Template](evidence/TEMPLATE.md).
 5. Cập nhật [PROGRESS.md](PROGRESS.md) từ lúc bắt đầu; chỉ chuyển trạng thái sang PASS khi evidence của bạn đạt tiêu chí.
 
+## Sau M01 — Practice path / Đường thực hành
+
+Sau khi hoàn thành M01.4, đừng chuyển thẳng sang module mới. Hãy dùng bộ lab cố định để luyện vòng `prompt → diagnose → improve → verify → score`:
+
+1. [P-001 — Summary Lab](labs/examples/P-001-summary.md)
+2. [P-002 — Planning Lab](labs/examples/P-002-planning.md)
+3. [P-003 — Comparison Lab](labs/examples/P-003-comparison.md)
+4. [Evaluation Lab](labs/EVALUATION-LAB.md) để chấm 0–2
+5. [M01 Check](assessments/M01-CHECK.md) để kiểm tra module
+
+Dữ liệu dùng chung nằm tại [Sample Brief](labs/data/sample-brief.md). Nếu chưa đạt, xem [Assessment Guide](assessments/README.md) và chỉ mở [Answer Key](assessments/ANSWER-KEY.md) sau khi đã tự làm.
+
 ## Chuẩn bị
 
 - Tài khoản ChatGPT và trình duyệt hiện đại; Foundation không cần API key, terminal hay kiến thức lập trình.
@@ -34,10 +46,16 @@ Không lưu password, token, API key, cookie, dữ liệu khách hàng, thông t
 
 Đọc [Troubleshooting](docs/TROUBLESHOOTING.md), ghi bước tái hiện và dùng fallback của bài. Không ghi PASS cho tính năng chỉ mới đọc mô tả.
 
+## Trạng thái pilot / Pilot status
+
+Bộ lesson + labs BOOT–M01 đã có self-QA, nhưng **beginner pilot thật chưa chạy**. Xem [Beginner Pilot](docs/BEGINNER-PILOT.md). Không dùng QA của tác giả thay cho evidence của người học.
+
 ## Quick links
 - [Curriculum](CURRICULUM.md)
 - [Learning Paths](docs/LEARNING-PATHS.md)
 - [Content Status](docs/CONTENT-STATUS.md)
 - [Study Method](STUDY-METHOD.md)
+- [Prompt Lab](labs/PROMPT-LAB.md)
+- [Assessment Guide](assessments/README.md)
 - [Evidence](evidence/README.md)
 - [Update Plan](docs/UPDATE-PLAN.md)
