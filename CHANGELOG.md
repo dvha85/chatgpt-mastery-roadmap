@@ -6,9 +6,11 @@
 - Triển khai U02/P1: thêm BOOT.1–BOOT.4 song ngữ, module README, dữ liệu mẫu, BOOT Check, evidence mẫu và QA checklist.
 - Triển khai U03: thêm M00.1–M00.3, M00 Check 10 tình huống, đáp án giải thích và M00 QA evidence.
 - Triển khai U04: thêm M01.1–M01.4, M01 Check 5 task specifications, supplied broken-output verification exercise và M01 QA evidence.
+- Triển khai U05: nâng cấp Prompt Lab/Evaluation Lab; thêm P-001 Summary, P-002 Planning, P-003 Comparison; thêm fixed synthetic dataset + ground truth; Assessment Guide, Answer Key/Remediation Map và U05 Pre-Pilot QA.
+- Chuẩn bị `docs/BEGINNER-PILOT.md` cho U06 với trạng thái `PREPARED — NOT RUN`; self-QA không được tính là pilot với người mới thật.
 - Đánh dấu **11 lesson BOOT–M01 READY**; 45 lesson M02–M11 tiếp tục PLANNED.
-- Hoàn tất phạm vi nội dung Gate P2; P3 vẫn cần ba lab mẫu, evaluation/assessment integration và beginner pilot trước khi phát hành v0.2.0.
-- Mở rộng `GLOSSARY.md`, cập nhật README/CURRICULUM/CONTENT-STATUS/UPDATE-PLAN và nối navigation M00 → M01.
+- Hoàn tất P2 và phần pre-pilot của P3 trong U05; **P3 release gate vẫn pending U06 beginner pilot, blocker fixes, retest và release decision**.
+- Mở rộng `GLOSSARY.md`, cập nhật README/START-HERE/CURRICULUM/CONTENT-STATUS/UPDATE-PLAN theo từng gói và nối navigation M00 → M01 → Labs/Assessments.
 
 ## v0.1.3 — 2026-09-10
 
