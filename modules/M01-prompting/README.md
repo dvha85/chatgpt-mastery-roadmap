@@ -37,9 +37,21 @@ M01 không dạy “prompt thần kỳ”. Trọng tâm là giao việc đủ r�
 - Nếu feature/tool không có, dùng fallback trong bài và chỉ ghi năng lực thực sự đã chứng minh.
 - Không đánh dấu PASS chỉ vì response nghe hay; phải kiểm theo rubric hoặc evidence.
 
+## Guided practice path — Đường thực hành có hướng dẫn
+
+Sau M01.4, làm ba lab với cùng dữ liệu cố định để luyện cách chẩn đoán và kiểm chứng:
+
+1. [P-001 — Summary Lab](../../labs/examples/P-001-summary.md) — grounding và output contract.
+2. [P-002 — Planning Lab](../../labs/examples/P-002-planning.md) — decomposition, constraints và arithmetic verification.
+3. [P-003 — Comparison Lab](../../labs/examples/P-003-comparison.md) — unknown handling, criteria và evidence-based recommendation.
+
+Dữ liệu chung: [Sample Brief](../../labs/data/sample-brief.md).  
+Quy trình experiment: [Prompt Lab](../../labs/PROMPT-LAB.md).  
+Cách chấm 0–2 và retest: [Evaluation Lab](../../labs/EVALUATION-LAB.md).
+
 ## Module assessment — Bài kiểm tra module
 
-Hoàn thành [M01 Check — 5 task specifications](../../assessments/M01-CHECK.md).
+Sau khi làm lab, hoàn thành [M01 Check — 5 task specifications](../../assessments/M01-CHECK.md). Xem [Assessment Guide](../../assessments/README.md) trước khi chấm; chỉ mở [Answer Key](../../assessments/ANSWER-KEY.md) sau khi đã tự làm.
 
 **PASS M01 khi:**
 
@@ -51,8 +63,8 @@ Hoàn thành [M01 Check — 5 task specifications](../../assessments/M01-CHECK.m
 
 ## QA evidence — Bằng chứng QA nội dung
 
-Tình trạng `READY` của tài liệu được kiểm tra tại [M01 QA Check](../../labs/examples/M01-qa-check.md). Đây là QA của khóa học, không phải PASS của người học.
+Tình trạng `READY` của lesson được kiểm tra tại [M01 QA Check](../../labs/examples/M01-qa-check.md). Hệ thống lab/rubric trước pilot được kiểm tra tại [U05 Pre-Pilot QA](../../labs/examples/U05-qa-check.md). Đây là QA của khóa học, không phải PASS của người học và không thay thế beginner pilot thật.
 
 ## Navigation — Điều hướng
 
-← [M00 — Mental Model](../M00-mental-model/README.md) · [Start M01.1](M01.1-prompt-foundations.md) · [M01 Check](../../assessments/M01-CHECK.md) · [M02 — Models & Reasoning](../M02-models-reasoning/README.md) →
+← [M00 — Mental Model](../M00-mental-model/README.md) · [Start M01.1](M01.1-prompt-foundations.md) · [P-001 Summary Lab](../../labs/examples/P-001-summary.md) · [M01 Check](../../assessments/M01-CHECK.md) · [M02 — Models & Reasoning](../M02-models-reasoning/README.md) →
