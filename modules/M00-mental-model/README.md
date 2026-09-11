@@ -13,6 +13,7 @@ Sau module này, người mới có thể chọn đúng **surface / bề mặt l
 2. [M00.2 — How ChatGPT Works / ChatGPT tạo câu trả lời như thế nào](M00.2-how-chatgpt-works.md)
 3. [M00.3 — Task Brief and Verification / Giao việc và kiểm chứng](M00.3-task-and-verification.md)
 4. [M00 Check — 10 tình huống thực hành](../../assessments/M00-CHECK.md)
+5. [M00 Vietnamese Prompt Pack — Bộ prompt tiếng Việt dùng trực tiếp](M00-VI-PROMPT-PACK.md)
 
 ## Core mental model / Mô hình cốt lõi
 
@@ -38,9 +39,10 @@ Kết quả → Ngữ cảnh → Công cụ → Kiểm chứng
 1. Học theo thứ tự M00.1 → M00.2 → M00.3.
 2. Mỗi thuật ngữ tiếng Anh phải được hiểu nghĩa tiếng Việt trước khi dùng lại.
 3. Khi tự viết prompt, ưu tiên tiếng Việt; chỉ dùng tiếng Anh khi chính task yêu cầu hoặc khi làm English exercise.
-4. Làm bài tập trên một task thật nhưng không dùng secret hoặc dữ liệu nhạy cảm.
-5. Hoàn thành [M00 Check](../../assessments/M00-CHECK.md) trước khi đánh dấu PASS.
-6. Lưu task brief, response, verification và reflection theo [Evidence Template](../../evidence/TEMPLATE.md).
+4. Dùng [M00 Vietnamese Prompt Pack](M00-VI-PROMPT-PACK.md) khi cần copy/paste prompt thực hành bằng tiếng Việt.
+5. Làm bài tập trên một task thật nhưng không dùng secret hoặc dữ liệu nhạy cảm.
+6. Hoàn thành [M00 Check](../../assessments/M00-CHECK.md) trước khi đánh dấu PASS.
+7. Lưu task brief, response, verification và reflection theo [Evidence Template](../../evidence/TEMPLATE.md).
 
 ## PASS M00
 
