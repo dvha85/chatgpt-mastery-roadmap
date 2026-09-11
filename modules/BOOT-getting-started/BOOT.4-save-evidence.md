@@ -13,6 +13,8 @@
 > **Status:** READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
+> **Ngôn ngữ vận hành:** evidence, prompt mẫu và hướng dẫn thực hành dùng tiếng Việt; English track được tách riêng.
+
 ## 0. Access and setup — Điều kiện truy cập
 Chuẩn bị một prompt và response đã làm sạch từ BOOT.1–BOOT.3. Bạn có thể lưu trong ghi chú riêng hoặc repo riêng. Repo này là public; không dùng fork public để lưu dữ liệu riêng tư. Nếu muốn dùng GitHub cho evidence riêng tư, tạo một private repository độc lập hoặc dùng notes cá nhân.
 
@@ -40,12 +42,10 @@ Chuẩn bị một prompt và response đã làm sạch từ BOOT.1–BOOT.3. B�
 ### Vocabulary notes — Giải thích thuật ngữ
 
 #### `reproducible`
-
 **Plain English:** A task can be repeated from recorded steps.  
 **Tiếng Việt:** Evidence tốt không cần response giống từng chữ; cần đủ input, prompt và cách kiểm tra.
 
 #### `status`
-
 **Plain English:** A label that describes current progress.  
 **Tiếng Việt:** `IN PROGRESS` và `REVIEW` được dùng trước `PASS`; không nhảy trạng thái vì đã đọc.
 
@@ -69,28 +69,38 @@ Lưu evidence biến việc học thành quá trình có thể nhìn lại và t
 Attempt → Record → Clean → Verify → Score → Reflect
 
 ## 6. Examples — Ví dụ
-### Example — Minimal evidence
+
+### Example — Minimal evidence / Evidence tối thiểu
 
 ```text
-Lesson: BOOT.1
-Prompt: Explain prompt in three simple sentences.
-Result: [cleaned response]
-Verification: The response used three sentences and included one example.
-Failure mode: It assumed I already knew the word model.
-Reflection: Next time I will ask for the term in Vietnamese first.
+Bài học: BOOT.1
+Prompt: Hãy giải thích “prompt” là gì bằng ba câu đơn giản và cho một ví dụ. Trả lời bằng tiếng Việt.
+Kết quả: [response đã làm sạch]
+Kiểm chứng: Response dùng đúng ba câu và có một ví dụ.
+Lỗi phát hiện: Response giả định tôi đã biết từ “model”.
+Tự tổng kết: Lần sau tôi sẽ yêu cầu giải thích thuật ngữ kỹ thuật bằng tiếng Việt trước khi dùng.
 ```
 
-**Giải thích tiếng Việt:** Hồ sơ ghi những gì đã làm và đã kiểm tra, không chỉ ghi “đã học”.
+**Giải thích:** Hồ sơ ghi những gì đã làm và đã kiểm tra, không chỉ ghi “đã học”.
 
-### Example — Safe GitHub storage
+### Example — Safe GitHub storage / Lưu an toàn trên GitHub
 
-Public repo: chỉ dùng dữ liệu giả lập hoặc dữ liệu được phép công khai.
-Private repository độc lập: dùng khi evidence chứa nội dung công việc không thể công khai.
-Private notes: lựa chọn mặc định cho dữ liệu nhạy cảm.
+- Public repo: chỉ dùng dữ liệu giả lập hoặc dữ liệu được phép công khai.
+- Private repository độc lập: dùng khi evidence chứa nội dung công việc không thể công khai.
+- Private notes: lựa chọn mặc định cho dữ liệu nhạy cảm.
 
-**Giải thích tiếng Việt:** Repo public và fork của repo public không phải nơi an toàn cho dữ liệu riêng tư.
+**Giải thích:** Repo public và fork của repo public không phải nơi an toàn cho dữ liệu riêng tư.
 
-## 7. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+## 7. Vietnamese operational patterns — Mẫu lệnh tiếng Việt dùng trực tiếp
+
+| Mẫu tiếng Việt | Nghĩa / cách dùng |
+|---|---|
+| `Ghi lại prompt và kết quả quan sát được.` | Lưu đầu vào/đầu ra. |
+| `Nêu rõ cách bạn đã kiểm chứng kết quả.` | Gắn evidence với verification. |
+| `Xóa dữ liệu riêng tư trước khi lưu.` | Bảo vệ thông tin nhạy cảm. |
+| `Đánh dấu trạng thái là IN PROGRESS / REVIEW / PASS theo bằng chứng hiện có.` | Không tự nâng trạng thái. |
+
+### English patterns for AI work — Mẫu câu tiếng Anh để học
 
 | English pattern | Nghĩa / cách dùng |
 |---|---|
@@ -102,21 +112,17 @@ Private notes: lựa chọn mặc định cho dữ liệu nhạy cảm.
 ## 8. Practice — Thực hành
 
 ### A. Comprehension check — Kiểm tra hiểu bài
-
 1. Liệt kê sáu phần tối thiểu của evidence.
 2. Phân biệt `READY` của lesson với `PASS` của learner.
 
 ### B. ChatGPT exercise — Bài tập ChatGPT
-
-Dùng một task đã làm ở BOOT.1–BOOT.3, điền [Evidence Template](../../evidence/TEMPLATE.md). Xóa dữ liệu riêng tư và thêm một failure mode cụ thể.
+Dùng một task đã làm ở BOOT.1–BOOT.3, điền [Evidence Template](../../evidence/TEMPLATE.md) bằng tiếng Việt. Xóa dữ liệu riêng tư và thêm một failure mode cụ thể.
 
 ### C. English exercise — Bài luyện tiếng Anh
-
 Viết ba câu: `I used...`, `I verified...`, `Next time I will...`. Đối chiếu với evidence tiếng Việt.
 
 ### D. Real-world transfer — Áp dụng thực tế
-
-Lưu một evidence vào notes cá nhân hoặc private repository độc lập. Nếu dùng GitHub web, Preview trước khi commit và kiểm tra secret/link/file.
+Lưu một evidence tiếng Việt vào notes cá nhân hoặc private repository độc lập. Nếu dùng GitHub web, Preview trước khi commit và kiểm tra secret/link/file.
 
 ## 9. Verification — Kiểm chứng
 - Người khác có biết task, input, prompt và expected result không?
@@ -133,13 +139,13 @@ Lưu một evidence vào notes cá nhân hoặc private repository độc lập.
 ## 11. Language checkpoint — Kiểm tra tiếng Anh
 - [ ] I recognize evidence, reproducible, reflection and status.
 - [ ] Tôi giải thích được sự khác nhau giữa READY và PASS.
-- [ ] I can write a short reflection in English.
+- [ ] I can write a short reflection in English trong English track.
 
 ## 12. PASS criteria — Tiêu chí PASS
 
 ### ChatGPT track
 - [ ] Explain: mô tả evidence tối thiểu.
-- [ ] Execute: điền một evidence hoàn chỉnh.
+- [ ] Execute: điền một evidence hoàn chỉnh bằng tiếng Việt.
 - [ ] Diagnose: nhận ra một lỗ hổng tái hiện hoặc privacy.
 - [ ] Verify: kiểm tra evidence trước khi lưu.
 - [ ] Transfer: lưu evidence cho một task khác.
@@ -162,5 +168,4 @@ Lưu file evidence đã làm sạch hoặc ghi rõ vị trí private notes. Khô
 **What I will use / Điều tôi sẽ áp dụng:** ...
 
 ## 16. Navigation — Điều hướng
-
 ← [BOOT.3 — Safe Use & Verification](BOOT.3-safe-use-and-verification.md) · [BOOT overview](README.md) · [M00.1 — Chat vs ChatGPT Work vs Codex](../M00-mental-model/M00.1-chat-work-codex.md) →
