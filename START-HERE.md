@@ -2,6 +2,18 @@
 
 > Trang điều hướng cho người mới. Kiểm tra trạng thái lesson trước khi học.
 
+## Dùng nhanh trước khi học
+
+Mở [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md) khi bạn cần:
+
+- chọn Chat / Work / Codex;
+- công thức prompt;
+- mẫu follow-up;
+- prompt cho tóm tắt, so sánh, lập kế hoạch, học tập;
+- checklist kiểm chứng câu trả lời.
+
+Cheat sheet dùng **tiếng Việt làm ngôn ngữ vận hành mặc định** và có thể dùng song song trong toàn bộ roadmap.
+
 ## Chưa từng dùng ChatGPT
 
 Bắt đầu tại [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md). Nhóm BOOT dạy mở chat, gửi yêu cầu, sửa câu trả lời, kiểm tra thông tin và lưu evidence. Bốn bài BOOT hiện đã READY.
@@ -51,6 +63,7 @@ Không lưu password, token, API key, cookie, dữ liệu khách hàng, thông t
 Bộ lesson + labs BOOT–M01 đã có self-QA, nhưng **beginner pilot thật chưa chạy**. Xem [Beginner Pilot](docs/BEGINNER-PILOT.md). Không dùng QA của tác giả thay cho evidence của người học.
 
 ## Quick links
+- [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md)
 - [Curriculum](CURRICULUM.md)
 - [Learning Paths](docs/LEARNING-PATHS.md)
 - [Content Status](docs/CONTENT-STATUS.md)
