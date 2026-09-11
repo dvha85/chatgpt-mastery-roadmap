@@ -11,6 +11,8 @@
 > **Status:** READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
+> **Ngôn ngữ vận hành:** thực hành ChatGPT bằng tiếng Việt; tiếng Anh chỉ dùng cho từ vựng và English track.
+
 ## 0. Access and setup — Điều kiện truy cập
 Đọc [boot-sample-brief](../../labs/data/boot-sample-brief.md). Bài này dùng claim giả lập để luyện kiểm tra, không dùng quyết định y tế, pháp lý, tài chính hoặc dữ liệu cá nhân thật. Nếu ChatGPT không có web search, mở nguồn được cung cấp bằng trình duyệt và ghi rõ cách làm.
 
@@ -38,16 +40,13 @@
 ### Vocabulary notes — Giải thích thuật ngữ
 
 #### `claim`
-
 **Plain English:** A statement that could be true or false.  
 **Tiếng Việt:** Claim quan trọng cần evidence tương ứng.  
 **Common confusion:** Chi tiết do AI viết không phải evidence.
 
 #### `redact`
-
 **Plain English:** Remove or replace sensitive information.  
 **Tiếng Việt:** Làm sạch dữ liệu trước khi gửi hoặc lưu.
-
 
 ## 3. Core concept — Khái niệm cốt lõi
 
@@ -69,23 +68,41 @@ Kiểm chứng giảm lỗi có thể tránh được và giúp bạn biết ph�
 Claim → Evidence → Check → Conclusion + Uncertainty
 
 ## 6. Examples — Ví dụ
-### Example — Ask for grounded output
+
+### Example — Ask for grounded output / Yêu cầu đầu ra bám nguồn
+
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+Chỉ dùng brief đính kèm. Hãy liệt kê ba claim, trích câu trong brief hỗ trợ cho từng claim và đánh dấu những mục không có bằng chứng là CHƯA CHẮC CHẮN. Không tự tạo thêm dữ kiện. Trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh**
 
 ```text
 Use only the attached brief. List three claims, quote the supporting sentence for each claim, and mark unsupported items as UNCERTAIN. Do not invent facts.
 ```
 
-**Giải thích tiếng Việt:** Prompt yêu cầu nguồn, giới hạn và nhãn uncertainty.
+**Giải thích:** Prompt yêu cầu nguồn, giới hạn và nhãn uncertainty.
 
-### Example — Redact before sending
+### Example — Redact before sending / Làm sạch trước khi gửi
 
 Input trước khi làm sạch: `Khách hàng Nguyễn Văn A, email a@example.com, ngân sách 18.000.000đ`.
 
 Input an toàn: `Khách hàng [CLIENT], email [REDACTED], ngân sách [BUDGET]`.
 
-**Giải thích tiếng Việt:** Giữ cấu trúc cần cho bài nhưng loại thông tin nhận diện.
+**Giải thích:** Giữ cấu trúc cần cho bài nhưng loại thông tin nhận diện.
 
-## 7. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+## 7. Vietnamese operational patterns — Mẫu lệnh tiếng Việt dùng trực tiếp
+
+| Mẫu tiếng Việt | Nghĩa / cách dùng |
+|---|---|
+| `Chỉ dùng nguồn đính kèm.` | Giới hạn nguồn. |
+| `Trích dẫn bằng chứng cho từng claim.` | Gắn evidence cho claim. |
+| `Đánh dấu phần không có bằng chứng là chưa chắc chắn.` | Không lấp phần thiếu bằng suy đoán. |
+| `Xóa hoặc thay dữ liệu nhạy cảm trước khi xử lý.` | Bảo vệ riêng tư. |
+
+### English patterns for AI work — Mẫu câu tiếng Anh để học
 
 | English pattern | Nghĩa / cách dùng |
 |---|---|
@@ -97,25 +114,21 @@ Input an toàn: `Khách hàng [CLIENT], email [REDACTED], ngân sách [BUDGET]`.
 ## 8. Practice — Thực hành
 
 ### A. Comprehension check — Kiểm tra hiểu bài
-
 1. Chọn ba câu trong một response và đánh dấu câu nào là claim.
 2. Nói evidence nào đủ mạnh hơn: “AI nói vậy” hay một câu trong brief? Vì sao?
 
 ### B. ChatGPT exercise — Bài tập ChatGPT
-
-Dùng sample brief với prompt grounded ở trên. Tạo bảng Claim → Evidence → Status. Sau đó tự kiểm tra một claim bằng cách đối chiếu lại đúng câu trong brief.
+Dùng sample brief với prompt tiếng Việt ở mục 6. Tạo bảng `Claim → Evidence → Trạng thái`. Sau đó tự kiểm tra một claim bằng cách đối chiếu đúng câu trong brief.
 
 ### C. English exercise — Bài luyện tiếng Anh
-
 Viết một instruction có `uncertain` và `evidence`. Đọc thành tiếng, rồi giải thích bằng tiếng Việt.
 
 ### D. Real-world transfer — Áp dụng thực tế
-
-Lấy một đoạn text không nhạy cảm bạn có quyền sử dụng. Redact tên/email/số nhận diện, yêu cầu ChatGPT tóm tắt, rồi kiểm tra hai claim quan trọng.
+Lấy một đoạn text không nhạy cảm bạn có quyền sử dụng. Redact tên/email/số nhận diện, yêu cầu ChatGPT tóm tắt **bằng tiếng Việt**, rồi kiểm tra hai claim quan trọng.
 
 ## 9. Verification — Kiểm chứng
 - Mỗi claim có câu nguồn, phép tính, test hoặc URL cụ thể chưa?
-- Claim nào không được support phải mang nhãn UNCERTAIN.
+- Claim nào không được support phải mang nhãn `CHƯA CHẮC CHẮN` hoặc `UNSUPPORTED`.
 - Có dữ liệu riêng tư nào còn sót trong prompt, screenshot hoặc evidence không?
 - Nếu nguồn thiếu hoặc cũ, bạn đã ghi uncertainty chưa?
 
@@ -128,13 +141,13 @@ Lấy một đoạn text không nhạy cảm bạn có quyền sử dụng. Reda
 ## 11. Language checkpoint — Kiểm tra tiếng Anh
 - [ ] I recognize claim, evidence, uncertainty and redact.
 - [ ] Tôi giải thích được vì sao AI output không tự là evidence.
-- [ ] I can ask ChatGPT to cite evidence and mark uncertainty.
+- [ ] I can ask ChatGPT to cite evidence and mark uncertainty trong English track.
 
 ## 12. PASS criteria — Tiêu chí PASS
 
 ### ChatGPT track
 - [ ] Explain: mô tả chuỗi Claim → Evidence → Check.
-- [ ] Execute: tạo bảng claim/evidence từ sample brief.
+- [ ] Execute: tạo bảng claim/evidence từ sample brief bằng prompt tiếng Việt.
 - [ ] Diagnose: phát hiện ít nhất một claim unsupported.
 - [ ] Verify: đối chiếu claim với câu nguồn hoặc phép kiểm tra.
 - [ ] Transfer: làm sạch và kiểm tra một input khác.
@@ -142,10 +155,10 @@ Lấy một đoạn text không nhạy cảm bạn có quyền sử dụng. Reda
 ### English track
 - [ ] Recognize ít nhất 4/4 thuật ngữ.
 - [ ] Understand `unsupported` và `uncertain` trong ngữ cảnh.
-- [ ] Use một prompt yêu cầu evidence rõ.
+- [ ] Use một prompt tiếng Anh yêu cầu evidence rõ.
 
 ## 13. Evidence to save — Evidence cần lưu
-Lưu input đã redact, bảng claim/evidence/status, một lỗi phát hiện được và reflection theo [evidence template](../../evidence/TEMPLATE.md).
+Lưu input đã redact, prompt tiếng Việt, bảng claim/evidence/status, một lỗi phát hiện được và reflection theo [evidence template](../../evidence/TEMPLATE.md).
 
 ## 14. Official sources — Nguồn chính thức
 - [Getting started with ChatGPT — OpenAI Academy](https://openai.com/academy/getting-started/)
