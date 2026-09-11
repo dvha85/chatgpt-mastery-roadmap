@@ -13,6 +13,8 @@
 > **Content status:** PLANNED / DRAFT / IN REVIEW / READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
+> **Ngôn ngữ vận hành:** prompt, task brief, ví dụ người dùng và bài ChatGPT exercise phải **tiếng Việt trước**. Chỉ yêu cầu tiếng Anh trong English track hoặc khi bản thân task bắt buộc dùng tiếng Anh. Theo [Vietnamese-first Usage](docs/VIETNAMESE-FIRST-USAGE.md).
+
 ## 0. Access and setup — Điều kiện truy cập
 
 Nêu surface, file/dữ liệu, quota/chi phí, quyền tài khoản và fallback. Không yêu cầu secret hoặc dữ liệu sản xuất.
@@ -77,7 +79,14 @@ Sau bài này, bạn có thể:
 
 ### Example 1
 
-**English prompt**
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+...
+Trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh (tùy chọn)**
 
 ```text
 ...
@@ -85,7 +94,13 @@ Sau bài này, bạn có thể:
 
 **Giải thích tiếng Việt:** ...
 
-## 7. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+## 7. Vietnamese operational patterns — Mẫu lệnh tiếng Việt dùng trực tiếp
+
+| Mẫu tiếng Việt | Nghĩa / cách dùng |
+|---|---|
+| `...` | ... |
+
+### English patterns for AI work — Mẫu câu tiếng Anh để học
 
 | English pattern | Nghĩa / cách dùng |
 |---|---|
@@ -98,6 +113,8 @@ Sau bài này, bạn có thể:
 ...
 
 ### B. ChatGPT exercise — Bài tập ChatGPT
+
+Dùng prompt tiếng Việt và yêu cầu output tiếng Việt, trừ khi chính mục tiêu bài tập là làm việc với nội dung tiếng Anh.
 
 ...
 
@@ -122,7 +139,7 @@ Sau bài này, bạn có thể:
 - [ ] I recognize the key technical terms.
 - [ ] Tôi giải thích được các thuật ngữ chính bằng tiếng Việt.
 - [ ] I understand the lesson's reusable English instructions.
-- [ ] Tôi tự viết được ít nhất một câu lệnh ChatGPT bằng tiếng Anh.
+- [ ] Tôi có thể viết một câu tiếng Anh ngắn trong English track; không bắt buộc dùng tiếng Anh để hoàn thành ChatGPT track.
 
 ## 12. PASS criteria — Tiêu chí PASS
 
@@ -142,7 +159,7 @@ Sau bài này, bạn có thể:
 
 ## 13. Evidence to save — Evidence cần lưu
 
-Liệt kê prompt, kết quả, verification, failure mode và reflection cần lưu. Dùng file `evidence/TEMPLATE.md` ở repo root; đường dẫn tương đối cần điều chỉnh theo vị trí lesson.
+Liệt kê prompt tiếng Việt, kết quả, verification, failure mode và reflection cần lưu. Dùng file `evidence/TEMPLATE.md` ở repo root; đường dẫn tương đối cần điều chỉnh theo vị trí lesson.
 
 ## 14. Official sources — Nguồn chính thức
 
