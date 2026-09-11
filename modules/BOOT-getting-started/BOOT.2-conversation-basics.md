@@ -11,6 +11,8 @@
 > **Status:** READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
+> **Ngôn ngữ vận hành:** thực hành ChatGPT bằng tiếng Việt; tiếng Anh chỉ dùng cho từ vựng và English track.
+
 ## 0. Access and setup — Điều kiện truy cập
 Dùng cùng một chat với BOOT.1 và một chat mới. Chuẩn bị một đoạn ghi chú giả lập từ [boot-sample-brief](../../labs/data/boot-sample-brief.md). Không dùng chat có dữ liệu công việc thật.
 
@@ -38,16 +40,13 @@ Dùng cùng một chat với BOOT.1 và một chat mới. Chuẩn bị một đo
 ### Vocabulary notes — Giải thích thuật ngữ
 
 #### `context`
-
 **Plain English:** Information available while ChatGPT answers.  
 **Tiếng Việt:** Context giúp giữ liên tục, nhưng không phải database chính xác hay trí nhớ vô hạn.  
 **Common confusion:** Chat mới không mang toàn bộ context chat cũ sang.
 
 #### `refine`
-
 **Plain English:** Improve one part with a precise follow-up.  
 **Tiếng Việt:** Tinh chỉnh giúp giảm việc phải viết lại từ đầu.
-
 
 ## 3. Core concept — Khái niệm cốt lõi
 
@@ -69,25 +68,49 @@ Biết khi nào tiếp tục và khi nào mở chat mới giúp tránh trộn nh
 Same goal → continue and refine; New goal/source → new chat
 
 ## 6. Examples — Ví dụ
-### Example — Refine in the same chat
 
-**English prompt**
+### Example — Refine in the same chat / Tinh chỉnh trong cùng chat
+
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+Hãy chuyển ba ý ở trên thành bảng hai cột: Hành động và Bước đầu tiên. Không thêm ý mới. Trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh**
 
 ```text
 Turn the three ideas above into a two-column table: Action and First step. Do not add new ideas.
 ```
 
-**Giải thích tiếng Việt:** Vẫn giữ context nhưng đặt output format và boundary rõ.
+**Giải thích:** Vẫn giữ context nhưng đặt output format và boundary rõ.
 
-### Example — Start a new chat
+### Example — Start a new chat / Mở chat mới
+
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+Nhiệm vụ mới: tạo checklist đồ cần mang cho chuyến đi hai ngày. Chỉ hỏi tôi những chi tiết thực sự làm thay đổi checklist. Trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh**
 
 ```text
 New task: create a packing checklist for a two-day trip. Ask me only for details that change the checklist.
 ```
 
-**Giải thích tiếng Việt:** Mục tiêu mới nên tách khỏi context cũ.
+**Giải thích:** Mục tiêu mới nên tách khỏi context cũ.
 
-## 7. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+## 7. Vietnamese operational patterns — Mẫu lệnh tiếng Việt dùng trực tiếp
+
+| Mẫu tiếng Việt | Nghĩa / cách dùng |
+|---|---|
+| `Dùng câu trả lời trước, nhưng chỉ sửa ...` | Giữ phần còn lại và sửa một phần. |
+| `Không thêm thông tin mới.` | Không tự bổ sung dữ liệu ngoài input. |
+| `Hãy mở một chat mới cho nhiệm vụ này.` | Tách context. |
+| `Chỉ hỏi nếu thông tin thiếu làm thay đổi đáng kể câu trả lời.` | Chỉ hỏi khi thật sự cần. |
+
+### English patterns for AI work — Mẫu câu tiếng Anh để học
 
 | English pattern | Nghĩa / cách dùng |
 |---|---|
@@ -99,23 +122,19 @@ New task: create a packing checklist for a two-day trip. Ask me only for details
 ## 8. Practice — Thực hành
 
 ### A. Comprehension check — Kiểm tra hiểu bài
-
 1. Nêu hai thông tin mà follow-up có thể lấy từ context trước.
 2. Cho hai ví dụ: một trường hợp tiếp tục chat, một trường hợp mở chat mới.
 
 ### B. ChatGPT exercise — Bài tập ChatGPT
-
-1. Trong chat hiện tại, dùng `boot-sample-brief` và yêu cầu tóm tắt 3 bullet.
-2. Follow-up yêu cầu đổi thành bảng hai cột, không thêm thông tin.
+1. Trong chat hiện tại, dùng `boot-sample-brief` và gửi: `Hãy tóm tắt nội dung thành 3 bullet. Chỉ dùng thông tin trong brief và trả lời bằng tiếng Việt.`
+2. Follow-up: `Giữ nguyên nội dung, đổi thành bảng hai cột. Không thêm thông tin.`
 3. Mở chat mới, hỏi một nhiệm vụ khác và so sánh xem thông tin cũ còn được dùng không.
 
 ### C. English exercise — Bài luyện tiếng Anh
-
-Viết hai instruction: một instruction tinh chỉnh format và một instruction yêu cầu không thêm dữ liệu. Đọc lại xem động từ và boundary đã rõ chưa.
+Viết hai instruction tiếng Anh: một instruction tinh chỉnh format và một instruction yêu cầu không thêm dữ liệu. Đọc lại xem động từ và boundary đã rõ chưa.
 
 ### D. Real-world transfer — Áp dụng thực tế
-
-Chọn một nhiệm vụ bạn thường lặp lại. Tạo một chat cho nhiệm vụ đó, ghi instruction ổn định, rồi mở chat mới cho một mục tiêu không liên quan.
+Chọn một nhiệm vụ bạn thường lặp lại. Tạo một chat cho nhiệm vụ đó, ghi instruction ổn định bằng tiếng Việt, rồi mở chat mới cho một mục tiêu không liên quan.
 
 ## 9. Verification — Kiểm chứng
 - Output sau follow-up chỉ thay đổi phần được yêu cầu chưa?
@@ -132,13 +151,13 @@ Chọn một nhiệm vụ bạn thường lặp lại. Tạo một chat cho nhi�
 ## 11. Language checkpoint — Kiểm tra tiếng Anh
 - [ ] I recognize context, refine, format and new chat.
 - [ ] Tôi giải thích được khi nào dùng continue và khi nào start over.
-- [ ] I can write a boundary instruction in English.
+- [ ] I can write a boundary instruction in English trong English track.
 
 ## 12. PASS criteria — Tiêu chí PASS
 
 ### ChatGPT track
 - [ ] Explain: mô tả context của chat hiện tại.
-- [ ] Execute: tinh chỉnh response ít nhất hai lần.
+- [ ] Execute: tinh chỉnh response ít nhất hai lần bằng tiếng Việt.
 - [ ] Diagnose: phát hiện một thay đổi ngoài yêu cầu.
 - [ ] Verify: so sánh chat tiếp tục với chat mới.
 - [ ] Transfer: áp dụng quy tắc vào một nhiệm vụ khác.
@@ -146,10 +165,10 @@ Chọn một nhiệm vụ bạn thường lặp lại. Tạo một chat cho nhi�
 ### English track
 - [ ] Recognize ít nhất 4/4 thuật ngữ.
 - [ ] Understand sự khác nhau giữa refine và rewrite.
-- [ ] Use một instruction có boundary rõ.
+- [ ] Use một instruction tiếng Anh có boundary rõ.
 
 ## 13. Evidence to save — Evidence cần lưu
-Lưu prompt tóm tắt, hai follow-up, kết quả trước/sau và so sánh chat mới theo [evidence template](../../evidence/TEMPLATE.md).
+Lưu prompt tóm tắt tiếng Việt, hai follow-up, kết quả trước/sau và so sánh chat mới theo [evidence template](../../evidence/TEMPLATE.md).
 
 ## 14. Official sources — Nguồn chính thức
 - [Getting started with ChatGPT — OpenAI Academy](https://openai.com/academy/getting-started/)
