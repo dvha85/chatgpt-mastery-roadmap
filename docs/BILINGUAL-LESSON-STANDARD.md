@@ -1,188 +1,187 @@
 # Bilingual Lesson Standard — Tiêu chuẩn bài học song ngữ
 
-> Applies to every lesson in this repository from v0.1.1 onward.  
-> Áp dụng cho mọi bài học trong repository từ phiên bản v0.1.1 trở đi.
+> Áp dụng cho mọi lesson trong repository.  
+> Quy tắc ngôn ngữ vận hành chi tiết: [Vietnamese-first Usage](VIETNAMESE-FIRST-USAGE.md).
 
 ## 1. Goal — Mục tiêu
 
-Every lesson teaches two things at the same time:
+Mỗi bài học đồng thời xây hai năng lực:
 
-1. **ChatGPT / AI capability** — understand and use the feature or concept correctly.
-2. **Practical English** — understand the English terms and sentence patterns that appear in real AI documentation and workflows.
+1. **ChatGPT / AI capability** — hiểu và sử dụng đúng tính năng hoặc khái niệm.
+2. **Practical English** — nhận diện thuật ngữ và mẫu câu tiếng Anh thường gặp trong tài liệu AI.
 
-Mỗi bài học đồng thời dạy hai năng lực:
+The English track supports reading official documentation. It does **not** require the learner to operate ChatGPT in English.
 
-1. **Năng lực ChatGPT / AI** — hiểu và sử dụng đúng tính năng hoặc khái niệm.
-2. **Tiếng Anh thực dụng** — hiểu thuật ngữ và mẫu câu thực tế xuất hiện trong tài liệu AI và workflow.
+English track giúp đọc tài liệu chính thức. Nó **không yêu cầu** người học phải giao việc cho ChatGPT bằng tiếng Anh.
 
-The English goal is not academic translation. The goal is to make official English documentation progressively easier to read without translation.
+## 2. Vietnamese-first operating rule — Quy tắc vận hành tiếng Việt trước
 
-Mục tiêu tiếng Anh không phải là dịch thuật hàn lâm. Mục tiêu là giúp người học dần có thể đọc tài liệu chính thức bằng tiếng Anh mà không cần phụ thuộc vào bản dịch.
+Đây là quy tắc bắt buộc cho mọi lesson mới và mọi lesson được cập nhật:
 
-## 2. Required lesson structure — Cấu trúc bắt buộc của mỗi bài
+- Prompt để copy/paste vào ChatGPT: **tiếng Việt trước**.
+- Task brief / bản giao việc: **tiếng Việt trước**.
+- Ví dụ hội thoại và follow-up của người dùng: **tiếng Việt trước**.
+- Verification prompt / yêu cầu kiểm chứng: **tiếng Việt trước**.
+- ChatGPT exercise: dùng tiếng Việt, trừ khi chính mục tiêu bài là xử lý nội dung tiếng Anh.
+- Kết quả mong đợi mặc định: `Trả lời bằng tiếng Việt.`
+- Nếu cần bản tiếng Anh, đặt **sau** bản tiếng Việt và ghi `English reference / Tham khảo tiếng Anh` hoặc đặt trong English exercise.
+- Không dùng nhãn `English prompt` cho prompt chính của ví dụ.
 
-Every lesson MUST contain the following sections.
+Tên sản phẩm, code, command, API field, tên file và thuật ngữ kỹ thuật chuẩn như `prompt`, `context`, `tool`, `model`, `token`, `repository`, `commit`, `API` được giữ nguyên khi dịch sẽ làm sai nghĩa hoặc sai thao tác.
 
-Mỗi bài MUST có các phần sau.
+## 3. Required lesson structure — Cấu trúc bắt buộc
 
 ### A. Lesson title — Tên bài
 
-Use the official English term first, followed by a natural Vietnamese explanation.
+Giữ thuật ngữ tiếng Anh chính thức khi cần, sau đó có diễn giải tiếng Việt tự nhiên.
 
-Đặt thuật ngữ tiếng Anh chính thức trước, sau đó là cách diễn giải tiếng Việt tự nhiên.
-
-Example:
-
-`M00.2 — Context, Tools & Hallucination / Ngữ cảnh, công cụ và hiện tượng bịa thông tin`
+Ví dụ: `M00.2 — How ChatGPT Works / ChatGPT tạo câu trả lời như thế nào`.
 
 ### B. Learning objectives — Mục tiêu học tập
 
-Write objectives in English and Vietnamese.
-
-Viết mục tiêu bằng cả tiếng Anh và tiếng Việt.
+Viết mục tiêu bằng cả English và Tiếng Việt. Mục tiêu ChatGPT track phải có thể hoàn thành hoàn toàn bằng tiếng Việt.
 
 ### C. Key vocabulary — Từ vựng trọng tâm
 
-For every important technical term, explain:
+Với thuật ngữ kỹ thuật quan trọng, ưu tiên các trường:
 
 | Field | Requirement |
 |---|---|
-| **Term** | Official English term |
-| **Pronunciation** | IPA or an easy pronunciation hint when useful |
-| **Vietnamese** | Natural Vietnamese meaning |
-| **Plain English** | Simple English explanation |
-| **In ChatGPT** | What the term specifically means in a ChatGPT/AI context |
-| **Example** | One short English example plus Vietnamese meaning |
-| **Common confusion** | Similar term or common misunderstanding when relevant |
+| **Term** | tên tiếng Anh chuẩn |
+| **Pronunciation** | IPA hoặc gợi ý phát âm khi hữu ích |
+| **Vietnamese** | nghĩa/giải thích tự nhiên bằng tiếng Việt |
+| **Plain English** | định nghĩa tiếng Anh đơn giản |
+| **In ChatGPT / AI** | nghĩa trong ngữ cảnh ChatGPT/AI |
+| **Common confusion** | điểm dễ nhầm khi cần |
 
-Do not translate technical terminology mechanically. Prefer the English term as the canonical name and use Vietnamese to explain the concept.
-
-Không dịch máy móc thuật ngữ kỹ thuật. Giữ thuật ngữ tiếng Anh là tên chuẩn và dùng tiếng Việt để giải thích bản chất.
+Không dịch máy móc thuật ngữ kỹ thuật. Giữ tên chuẩn tiếng Anh và giải thích bản chất bằng tiếng Việt.
 
 ### D. Core concept — Khái niệm cốt lõi
 
-Use paired explanations:
+Có thể dùng cặp giải thích:
 
-**English** — concise explanation written in natural, accessible English.  
-**Tiếng Việt** — explanation of the same idea, with extra clarification when necessary.
-
-The Vietnamese paragraph does not need to be a literal sentence-by-sentence translation. It should optimize understanding.
-
-Phần tiếng Việt không cần dịch từng chữ; ưu tiên giúp hiểu đúng bản chất.
+- **English:** ngắn, tự nhiên, hỗ trợ đọc hiểu.
+- **Tiếng Việt:** bản giải thích chính để người học hiểu sâu; không cần dịch từng chữ.
 
 ### E. Why it matters — Vì sao quan trọng
 
-Explain both the practical benefit and the failure caused by misunderstanding the concept.
-
-Giải thích cả lợi ích khi hiểu đúng và lỗi có thể xảy ra khi hiểu sai.
+Nêu lợi ích khi hiểu đúng và lỗi/rủi ro khi hiểu sai.
 
 ### F. Examples — Ví dụ
 
-Include realistic examples. Prompts should normally be shown in English first, then Vietnamese explanation/translation.
+Ví dụ phải sát tình huống thực tế và theo thứ tự:
 
-Ví dụ phải sát tình huống thực tế. Prompt nên ưu tiên viết bằng tiếng Anh trước, sau đó giải thích/dịch tiếng Việt.
+1. nhiệm vụ / tình huống bằng tiếng Việt;
+2. **Prompt tiếng Việt — dùng trực tiếp**;
+3. kết quả/điểm cần quan sát;
+4. cách kiểm chứng;
+5. `English reference` chỉ khi hữu ích cho English track.
 
-### G. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+Ví dụ chuẩn:
 
-Each lesson introduces 3–8 reusable sentence patterns, for example:
+```text
+Hãy dùng file đính kèm làm nguồn chính. Tách các dữ kiện được hỗ trợ khỏi phần chưa chắc chắn. Không đoán khi thiếu bằng chứng. Trả lời bằng tiếng Việt.
+```
 
-- `Use the attached file as the primary source.` — Dùng file đính kèm làm nguồn chính.
-- `State your assumptions explicitly.` — Nêu rõ các giả định của bạn.
-- `Cite the evidence for each claim.` — Trích dẫn bằng chứng cho từng nhận định.
-- `Ask only if a missing detail materially changes the answer.` — Chỉ hỏi lại nếu thông tin thiếu làm thay đổi đáng kể câu trả lời.
+English reference tùy chọn:
 
-These are functional expressions the learner can reuse directly with ChatGPT.
+```text
+Use the attached file as the primary source. Separate supported facts from uncertain items. Do not guess when evidence is missing.
+```
 
-Đây là các mẫu câu thực dụng có thể dùng trực tiếp khi làm việc với ChatGPT.
+### G. Vietnamese operational patterns + English patterns
+
+Mỗi bài nên có 3–8 mẫu lệnh tiếng Việt dùng trực tiếp, sau đó mới tới mẫu tiếng Anh để học.
+
+Ví dụ:
+
+| Mẫu tiếng Việt | English reference |
+|---|---|
+| `Dùng file đính kèm làm nguồn chính.` | `Use the attached file as the primary source.` |
+| `Nêu rõ các giả định của bạn.` | `State your assumptions explicitly.` |
+| `Trích dẫn bằng chứng cho từng nhận định.` | `Cite the evidence for each claim.` |
 
 ### H. Practice — Thực hành
 
-Every lesson includes:
+Mỗi bài gồm:
 
-1. a comprehension check;
-2. a ChatGPT exercise;
-3. an English exercise;
-4. a real-world transfer exercise.
-
-Mỗi bài gồm kiểm tra hiểu bài, bài thực hành ChatGPT, bài luyện tiếng Anh và bài áp dụng thực tế.
+1. comprehension check / kiểm tra hiểu bài;
+2. ChatGPT exercise / bài thực hành ChatGPT **bằng tiếng Việt**;
+3. English exercise / bài luyện tiếng Anh;
+4. real-world transfer / bài áp dụng thực tế.
 
 ### I. Verification & failure modes — Kiểm chứng và lỗi thường gặp
 
-Teach how to verify the result and identify at least one failure mode.
-
-Hướng dẫn cách kiểm tra kết quả và nhận diện ít nhất một failure mode.
+Hướng dẫn cách kiểm output và ít nhất một failure mode. Verification prompt dùng trong ChatGPT track phải có bản tiếng Việt dùng trực tiếp.
 
 ### J. Language checkpoint — Kiểm tra tiếng Anh
 
-Before PASS, the learner should be able to:
+Trước PASS, người học nên:
 
-- recognize the lesson's key English terms;
-- explain 3–5 important terms in simple Vietnamese;
-- understand several common English instructions without translation;
-- write at least one useful ChatGPT instruction in English.
+- nhận diện thuật ngữ tiếng Anh chính;
+- giải thích 3–5 thuật ngữ bằng tiếng Việt;
+- hiểu một số instruction tiếng Anh phổ biến;
+- viết một câu tiếng Anh ngắn trong **English track**.
 
-Trước khi PASS, người học cần nhận diện được thuật ngữ chính, giải thích được bản chất bằng tiếng Việt, đọc hiểu một số chỉ dẫn tiếng Anh phổ biến và tự viết ít nhất một câu lệnh ChatGPT bằng tiếng Anh.
+Khả năng viết prompt tiếng Anh không phải điều kiện để chứng minh kỹ năng vận hành ChatGPT bằng tiếng Việt.
 
 ### K. PASS criteria — Tiêu chí PASS
-
-A lesson passes only when both tracks are satisfied:
 
 **ChatGPT track:** Explain → Execute → Diagnose → Verify → Transfer.  
 **English track:** Recognize → Understand → Use.
 
-Không yêu cầu tiếng Anh hoàn hảo. Chấm khả năng hiểu và sử dụng đúng trong ngữ cảnh AI, không chấm theo chuẩn thi học thuật.
+Không yêu cầu tiếng Anh hoàn hảo. Chấm đúng ngữ cảnh, không chấm theo chuẩn thi học thuật.
 
-## 3. Progressive English exposure — Tăng dần tỷ lệ tiếng Anh
+## 4. Progressive English exposure — Tăng dần tiếp xúc tiếng Anh
 
-The repository remains bilingual at every stage, but English exposure increases gradually.
+English exposure có thể tăng từ Stage A đến Stage C ở **phần đọc hiểu, từ vựng và tài liệu tham khảo**.
 
-Repo luôn song ngữ ở mọi stage, nhưng tỷ lệ tiếp xúc tiếng Anh tăng dần:
+| Stage | English-learning emphasis | Operating language |
+|---|---|---|
+| Stage A — Operator | thuật ngữ + mẫu câu cơ bản | Vietnamese-first |
+| Stage B — Power User | đọc product docs nhiều hơn | Vietnamese-first |
+| Stage C — Builder | đọc developer docs/code/API nhiều hơn | Vietnamese-first; giữ nguyên code/technical syntax |
 
-| Stage | Suggested balance | Goal |
-|---|---:|---|
-| Stage A — Operator | ~50% EN / 50% VI | Build confidence and core vocabulary |
-| Stage B — Power User | ~60% EN / 40% VI | Read product docs more independently |
-| Stage C — Builder | ~70% EN / 30% VI | Work comfortably with developer documentation |
+Tăng English exposure **không có nghĩa** đảo prompt thực hành sang tiếng Anh làm mặc định.
 
-Vietnamese explanations remain available for difficult concepts even in Stage C.
+## 5. Vocabulary policy — Quy tắc thuật ngữ
 
-Ở Stage C vẫn giữ phần giải thích tiếng Việt cho các khái niệm khó.
+- Giữ canonical terms: `prompt`, `context`, `token`, `agent`, `tool`, `workflow`, `plugin`, `skill`, `grounding`, `retrieval`, v.v.
+- Giải thích tiếng Việt ở lần dùng đầu.
+- Ưu tiên meaning-in-context hơn dịch từ điển.
+- Phân biệt các thuật ngữ gần nghĩa.
+- Bổ sung thuật ngữ quan trọng vào [GLOSSARY.md](../GLOSSARY.md).
 
-## 4. Vocabulary policy — Quy tắc thuật ngữ
+## 6. What NOT to do — Những điều không làm
 
-- Keep canonical product and engineering terms in English: `prompt`, `context`, `token`, `agent`, `tool`, `workflow`, `plugin`, `skill`, `grounding`, `retrieval`, etc.
-- Give a Vietnamese explanation on first use.
-- Prefer meaning-in-context over dictionary translation.
-- Distinguish closely related terms explicitly.
-- Add important terms to the cumulative [GLOSSARY.md](../GLOSSARY.md).
-- Mark terms that are OpenAI product names separately from general AI terms.
+- Không tạo hai lesson tách rời EN và VI.
+- Không dùng bản dịch từng chữ thiếu tự nhiên.
+- Không giấu thuật ngữ chuẩn phía sau bản dịch tiếng Việt-only.
+- Không bắt người học dùng prompt tiếng Anh trong ChatGPT track.
+- Không đặt English prompt trước rồi buộc người học tự dịch để thực hành.
+- Không yêu cầu grammar hoàn hảo để PASS kỹ năng AI.
+- Không dạy thuật ngữ/tính năng đã lỗi thời khi nguồn chính thức đã thay đổi.
 
-## 5. What NOT to do — Những điều không làm
+## 7. Source-first rule — Ưu tiên nguồn chính thức
 
-- Do not create two disconnected lessons, one English and one Vietnamese.
-- Do not produce word-for-word Vietnamese translations that sound unnatural.
-- Do not overload a lesson with every possible English word.
-- Do not hide key technical terms behind Vietnamese-only translations.
-- Do not require perfect grammar before the learner can PASS an AI skill.
-- Do not teach obsolete terminology when official OpenAI terminology has changed.
+Khi nội dung liên quan trực tiếp sản phẩm/tính năng OpenAI, kiểm tra nguồn chính thức hiện tại trước khi hoàn thiện lesson và ghi source snapshot.
 
-## 6. Source-first rule — Ưu tiên nguồn chính thức
+## 8. Beginner accessibility — Khả năng tiếp cận cho người mới
 
-When terminology is product-specific, check the latest official OpenAI documentation before finalizing a lesson.
-
-Nếu thuật ngữ liên quan đến sản phẩm/tính năng cụ thể, phải kiểm tra tài liệu OpenAI mới nhất trước khi hoàn thiện bài học.
-
-## 7. Beginner accessibility — Khả năng tiếp cận cho người mới
-- Giải thích bước thao tác trước khi dùng từ viết tắt hoặc tên tính năng.
-- Mỗi ví dụ chỉ rõ input, hành động, kết quả minh họa và cách kiểm tra.
+- Giải thích thao tác trước khi dùng viết tắt/tên tính năng khó.
+- Mỗi bài nên giới hạn khoảng 3–7 thuật ngữ mới.
+- Mỗi ví dụ phải có input/tình huống, prompt tiếng Việt, kết quả cần quan sát và cách kiểm.
 - Không viết “hãy thực hành” nếu chưa có dữ liệu, prompt mẫu hoặc tiêu chí quan sát.
-- Ghi rõ nguyên lý bền vững và chi tiết giao diện có thể đổi.
-- Tính năng không có trên mọi tài khoản phải có fallback và nhãn `not tested`.
+- Tính năng không có trên mọi tài khoản phải có fallback và nhãn phù hợp.
+- Người mới phải hoàn thành được ChatGPT track mà **không cần tự dịch từ tiếng Anh sang tiếng Việt**.
 
-## 7. Beginner accessibility — Khả năng tiếp cận cho người mới
+## 9. QA gate — Gate kiểm tra Vietnamese-first
 
-- Lesson phải giải thích bước thao tác trước khi dùng từ viết tắt hoặc tên tính năng.
-- Mỗi bài nên giới hạn khoảng 3–7 thuật ngữ mới và nhắc lại thuật ngữ cũ trước khi thêm từ mới.
-- Mỗi ví dụ chỉ rõ input, hành động, kết quả minh họa và cách kiểm tra.
-- Không viết “hãy thực hành” nếu chưa có dữ liệu, prompt mẫu hoặc tiêu chí quan sát.
-- Tính năng không có trên mọi tài khoản phải có fallback và nhãn `not tested`.
+Một lesson chưa đạt READY nếu còn một trong các lỗi sau:
+
+- prompt copy/paste chính chỉ có tiếng Anh;
+- task brief chính chỉ có tiếng Anh;
+- bài ChatGPT exercise bắt người học dùng prompt tiếng Anh ngoài mục tiêu English track;
+- đáp án mẫu chỉ đưa prompt tiếng Anh;
+- verification instruction chính chỉ có tiếng Anh;
+- thuật ngữ tiếng Anh được dùng nhưng không có giải thích tiếng Việt phù hợp.
