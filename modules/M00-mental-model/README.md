@@ -33,11 +33,14 @@ Kết quả → Ngữ cảnh → Công cụ → Kiểm chứng
 
 ## Study rule / Quy tắc học
 
+> **Ngôn ngữ vận hành mặc định: tiếng Việt.** Prompt, task brief, ví dụ người dùng, bài ChatGPT exercise và yêu cầu kiểm chứng trong M00 nên dùng tiếng Việt trước. Tiếng Anh được giữ để học thuật ngữ và mẫu câu, không phải điều kiện để hoàn thành ChatGPT track. Xem [Vietnamese-first Usage](../../docs/VIETNAMESE-FIRST-USAGE.md).
+
 1. Học theo thứ tự M00.1 → M00.2 → M00.3.
 2. Mỗi thuật ngữ tiếng Anh phải được hiểu nghĩa tiếng Việt trước khi dùng lại.
-3. Làm bài tập trên một task thật nhưng không dùng secret hoặc dữ liệu nhạy cảm.
-4. Hoàn thành [M00 Check](../../assessments/M00-CHECK.md) trước khi đánh dấu PASS.
-5. Lưu task brief, response, verification và reflection theo [Evidence Template](../../evidence/TEMPLATE.md).
+3. Khi tự viết prompt, ưu tiên tiếng Việt; chỉ dùng tiếng Anh khi chính task yêu cầu hoặc khi làm English exercise.
+4. Làm bài tập trên một task thật nhưng không dùng secret hoặc dữ liệu nhạy cảm.
+5. Hoàn thành [M00 Check](../../assessments/M00-CHECK.md) trước khi đánh dấu PASS.
+6. Lưu task brief, response, verification và reflection theo [Evidence Template](../../evidence/TEMPLATE.md).
 
 ## PASS M00
 
@@ -45,7 +48,7 @@ PASS khi:
 
 - đạt ít nhất **16/20** trong 10 tình huống;
 - giải thích đúng Chat, Work, Codex, model, context, tool và surface;
-- viết được ít nhất một task brief theo `Outcome → Context → Tools → Verification`;
+- viết được ít nhất một task brief theo `Outcome → Context → Tools → Verification` bằng tiếng Việt;
 - kiểm chứng được ít nhất một claim bằng nguồn, phép tính, test hoặc review phù hợp;
 - không dùng thuật ngữ tiếng Anh trọng tâm mà không giải thích được nghĩa.
 
