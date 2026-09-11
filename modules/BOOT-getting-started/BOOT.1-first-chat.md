@@ -11,6 +11,8 @@
 > **Status:** READY  
 > **Learner status:** NOT STARTED / IN PROGRESS / PASS / REVIEW
 
+> **Ngôn ngữ vận hành:** dùng tiếng Việt để thực hành ChatGPT. Tiếng Anh trong bài dùng để học thuật ngữ và mẫu câu. Xem [Vietnamese-first Usage](../../docs/VIETNAMESE-FIRST-USAGE.md).
+
 ## 0. Access and setup — Điều kiện truy cập
 Mở ChatGPT và tạo một chat mới. Nếu giao diện khác, tìm ô nhập tin nhắn hoặc dùng trang ChatGPT web. Chỉ dùng dữ liệu giả lập; chưa cần upload file, bật tool hay kết nối tài khoản.
 
@@ -48,7 +50,6 @@ Mở ChatGPT và tạo một chat mới. Nếu giao diện khác, tìm ô nhập
 **Plain English:** What ChatGPT returns after processing your prompt.  
 **Tiếng Việt:** Đầu ra cần đọc và kiểm tra; response không tự động đúng.
 
-
 ## 3. Core concept — Khái niệm cốt lõi
 
 ### English
@@ -69,25 +70,48 @@ Cuộc chat đầu tiên giúp bạn nắm vòng lặp cơ bản trước khi h�
 Goal → Prompt → Response → Follow-up → Check
 
 ## 6. Examples — Ví dụ
-### Example 1 — Guided first prompt
+### Example 1 — Guided first prompt / Prompt đầu tiên có hướng dẫn
 
-**English prompt**
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+Tôi đang học cách sử dụng ChatGPT. Hãy giải thích “prompt” là gì bằng ba câu đơn giản, sau đó cho tôi một ví dụ. Trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh**
 
 ```text
 I am learning to use ChatGPT. Explain what a prompt is in three simple sentences, then give me one example.
 ```
 
-**Giải thích tiếng Việt:** Prompt yêu cầu giải thích một khái niệm, giới hạn độ dài và xin một ví dụ.
+**Giải thích:** Prompt yêu cầu giải thích một khái niệm, giới hạn độ dài và xin một ví dụ.
 
-### Example 2 — Follow-up
+### Example 2 — Follow-up / Yêu cầu tiếp nối
+
+**Prompt tiếng Việt — dùng trực tiếp**
+
+```text
+Hãy viết lại phần giải thích cho người mới chưa biết tiếng Anh kỹ thuật. Giới hạn dưới 80 từ và trả lời bằng tiếng Việt.
+```
+
+**English reference — Tham khảo tiếng Anh**
 
 ```text
 Rewrite the explanation for a beginner who does not know technical English. Keep it under 80 words.
 ```
 
-**Giải thích tiếng Việt:** Đây là follow-up; nó dùng context của lượt trước và thêm audience, độ dài.
+**Giải thích:** Đây là follow-up; nó dùng context của lượt trước và thêm audience, độ dài.
 
-## 7. English patterns for AI work — Mẫu câu tiếng Anh dùng với AI
+## 7. Vietnamese operational patterns — Mẫu lệnh tiếng Việt dùng trực tiếp
+
+| Mẫu tiếng Việt | Nghĩa / cách dùng |
+|---|---|
+| `Hãy giải thích ... bằng ngôn ngữ đơn giản.` | Yêu cầu giải thích dễ hiểu. |
+| `Cho tôi một ví dụ cụ thể.` | Xin ví dụ. |
+| `Giới hạn dưới ... từ.` | Giới hạn độ dài. |
+| `Hãy viết lại nội dung này cho ...` | Viết lại cho đối tượng hoặc mục đích khác. |
+
+### English patterns for AI work — Mẫu câu tiếng Anh để học
 
 | English pattern | Nghĩa / cách dùng |
 |---|---|
@@ -105,7 +129,19 @@ Rewrite the explanation for a beginner who does not know technical English. Keep
 
 ### B. ChatGPT exercise — Bài tập ChatGPT
 
-Gửi prompt sau, rồi hỏi một follow-up: `Give me three low-risk ways to use ChatGPT today. Put them in a table.` Yêu cầu tiếp: `Add one concrete example for the first row.` Ghi lại điều gì đã thay đổi.
+Gửi prompt sau:
+
+```text
+Hãy cho tôi ba cách ít rủi ro để sử dụng ChatGPT ngay hôm nay. Trình bày thành bảng và trả lời bằng tiếng Việt.
+```
+
+Sau đó gửi follow-up:
+
+```text
+Thêm một ví dụ cụ thể cho hàng đầu tiên. Không thay đổi hai hàng còn lại.
+```
+
+Ghi lại điều gì đã thay đổi.
 
 ### C. English exercise — Bài luyện tiếng Anh
 
@@ -113,7 +149,7 @@ Tự viết một prompt tiếng Anh dùng một trong bốn mẫu câu ở trê
 
 ### D. Real-world transfer — Áp dụng thực tế
 
-Chọn một việc nhỏ như viết tin nhắn, tóm tắt đoạn văn hoặc lập danh sách. Viết prompt có mục tiêu rõ, chạy thử và lưu kết quả đã làm sạch.
+Chọn một việc nhỏ như viết tin nhắn, tóm tắt đoạn văn hoặc lập danh sách. Viết prompt **bằng tiếng Việt** có mục tiêu rõ, chạy thử và lưu kết quả đã làm sạch.
 
 ## 9. Verification — Kiểm chứng
 - Response có làm đúng động từ chính trong prompt không?
@@ -130,13 +166,13 @@ Chọn một việc nhỏ như viết tin nhắn, tóm tắt đoạn văn hoặc
 ## 11. Language checkpoint — Kiểm tra tiếng Anh
 - [ ] I recognize prompt, response, chat and follow-up.
 - [ ] Tôi giải thích được bốn thuật ngữ bằng tiếng Việt.
-- [ ] I can write one useful instruction in English.
+- [ ] I can write one useful instruction in English trong English track.
 
 ## 12. PASS criteria — Tiêu chí PASS
 
 ### ChatGPT track
 - [ ] Explain: giải thích được vòng Prompt → Response → Follow-up.
-- [ ] Execute: tự gửi prompt và follow-up.
+- [ ] Execute: tự gửi prompt và follow-up bằng tiếng Việt.
 - [ ] Diagnose: chỉ ra một lỗi do prompt mơ hồ hoặc giả định thiếu.
 - [ ] Verify: kiểm tra ít nhất một yêu cầu trong response.
 - [ ] Transfer: áp dụng với một tác vụ khác.
@@ -147,7 +183,7 @@ Chọn một việc nhỏ như viết tin nhắn, tóm tắt đoạn văn hoặc
 - [ ] Use một mẫu câu tiếng Anh đúng mục đích.
 
 ## 13. Evidence to save — Evidence cần lưu
-Lưu prompt đầu tiên, follow-up, response đã làm sạch, một ghi chú verification và reflection theo [evidence template](../../evidence/TEMPLATE.md).
+Lưu prompt tiếng Việt đầu tiên, follow-up, response đã làm sạch, một ghi chú verification và reflection theo [evidence template](../../evidence/TEMPLATE.md).
 
 ## 14. Official sources — Nguồn chính thức
 - [Getting started with ChatGPT — OpenAI Academy](https://openai.com/academy/getting-started/)
