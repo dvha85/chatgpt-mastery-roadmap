@@ -4,6 +4,7 @@ Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power us
 
 Khóa học vẫn được viết **song ngữ English–Tiếng Việt** để vừa học ChatGPT vừa xây khả năng đọc tài liệu AI bằng tiếng Anh. Tuy nhiên, **ngôn ngữ vận hành mặc định là tiếng Việt**: prompt, task brief, follow-up, ví dụ thực hành, verification prompt và bài ChatGPT exercise dùng tiếng Việt làm bản chính. Tiếng Anh được giữ ở phần thuật ngữ, `English reference` và English track.
 
+> Dùng nhanh hằng ngày: [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md)  
 > Xem quy tắc đầy đủ: [Vietnamese-first Usage](docs/VIETNAMESE-FIRST-USAGE.md)  
 > Mục tiêu phát hành gần nhất: v0.2.0  
 > Trạng thái hiện tại: preview — P2 complete, U05 pre-pilot complete, U06 beginner pilot pending  
@@ -99,11 +100,12 @@ Sau đó chấm bằng [Evaluation Lab](labs/EVALUATION-LAB.md) và checkpoint t
 ## Bắt đầu
 
 1. Mở [START-HERE.md](START-HERE.md).
-2. Đọc [CURRICULUM.md](CURRICULUM.md) để biết thứ tự.
-3. Đọc [STUDY-METHOD.md](STUDY-METHOD.md) để hiểu vòng học và PASS.
-4. Mở [PROGRESS.md](PROGRESS.md) để ghi năng lực.
-5. Chỉ học lesson có `Content status = READY`.
-6. Khi cần prompt tiếng Việt cho M00, dùng [M00 Vietnamese Prompt Pack](modules/M00-mental-model/M00-VI-PROMPT-PACK.md).
+2. Mở [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md) khi cần prompt/mẫu kiểm chứng dùng ngay.
+3. Đọc [CURRICULUM.md](CURRICULUM.md) để biết thứ tự.
+4. Đọc [STUDY-METHOD.md](STUDY-METHOD.md) để hiểu vòng học và PASS.
+5. Mở [PROGRESS.md](PROGRESS.md) để ghi năng lực.
+6. Chỉ học lesson có `Content status = READY`.
+7. Khi cần prompt tiếng Việt cho M00, dùng [M00 Vietnamese Prompt Pack](modules/M00-mental-model/M00-VI-PROMPT-PACK.md).
 
 ## Cấu trúc chính
 
