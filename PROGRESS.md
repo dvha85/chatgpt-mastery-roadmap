@@ -6,7 +6,7 @@
 
 | Lesson | Status | Evidence | Review date |
 |---|---|---|---|
-| BOOT.1 First chat | IN PROGRESS | | |
+| BOOT.1 First chat | PASS | Pilot 2026-09-11: Explain, Execute, Diagnose, Verify, Transfer + English track đạt | 2026-09-11 |
 | BOOT.2 Conversation basics | NOT STARTED | | |
 | BOOT.3 Safe use & verification | NOT STARTED | | |
 | BOOT.4 Save evidence | NOT STARTED | | |
@@ -80,4 +80,4 @@
 
 ## Current next lesson
 
-**BOOT.1 — First chat**
+**BOOT.2 — Conversation basics**
