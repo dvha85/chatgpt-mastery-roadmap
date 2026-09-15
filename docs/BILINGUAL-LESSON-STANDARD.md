@@ -8,11 +8,22 @@
 Mỗi bài học đồng thời xây hai năng lực:
 
 1. **ChatGPT / AI capability** — hiểu và sử dụng đúng tính năng hoặc khái niệm.
-2. **Practical English** — nhận diện thuật ngữ và mẫu câu tiếng Anh thường gặp trong tài liệu AI.
+2. **Practical English** — trước hết nhận diện và hiểu thuật ngữ tiếng Anh thường gặp trong tài liệu AI.
 
 The English track supports reading official documentation. It does **not** require the learner to operate ChatGPT in English.
 
 English track giúp đọc tài liệu chính thức. Nó **không yêu cầu** người học phải giao việc cho ChatGPT bằng tiếng Anh.
+
+### Current learner mode — Vocabulary-first / Chế độ hiện tại: ưu tiên từ vựng
+
+Ở giai đoạn hiện tại, English track chỉ bắt buộc hai mức:
+
+1. **Recognize** — nhận ra thuật ngữ tiếng Anh chính.
+2. **Understand** — giải thích được nghĩa bằng tiếng Việt và hiểu nghĩa trong ngữ cảnh AI/ChatGPT.
+
+Mức **Use** — tự viết prompt/instruction bằng tiếng Anh — được **DEFERRED** cho giai đoạn sau và **không chặn PASS** của lesson hiện tại.
+
+Các English pattern vẫn có thể xuất hiện như tài liệu tham khảo để làm quen mắt, nhưng người học không phải tự viết prompt tiếng Anh trừ khi chủ động muốn luyện thêm.
 
 ## 2. Vietnamese-first operating rule — Quy tắc vận hành tiếng Việt trước
 
@@ -91,7 +102,7 @@ Use the attached file as the primary source. Separate supported facts from uncer
 
 ### G. Vietnamese operational patterns + English patterns
 
-Mỗi bài nên có 3–8 mẫu lệnh tiếng Việt dùng trực tiếp, sau đó mới tới mẫu tiếng Anh để học.
+Mỗi bài nên có 3–8 mẫu lệnh tiếng Việt dùng trực tiếp, sau đó mới tới mẫu tiếng Anh để **nhận diện và học từ vựng**.
 
 Ví dụ:
 
@@ -101,14 +112,18 @@ Ví dụ:
 | `Nêu rõ các giả định của bạn.` | `State your assumptions explicitly.` |
 | `Trích dẫn bằng chứng cho từng nhận định.` | `Cite the evidence for each claim.` |
 
+Trong Vocabulary-first mode, người học **không phải tự tạo câu tiếng Anh từ các pattern này**.
+
 ### H. Practice — Thực hành
 
 Mỗi bài gồm:
 
 1. comprehension check / kiểm tra hiểu bài;
 2. ChatGPT exercise / bài thực hành ChatGPT **bằng tiếng Việt**;
-3. English exercise / bài luyện tiếng Anh;
+3. English vocabulary exercise / bài luyện **nhận diện + hiểu từ vựng tiếng Anh**;
 4. real-world transfer / bài áp dụng thực tế.
+
+Trong Vocabulary-first mode, English exercise ưu tiên: ghép thuật ngữ với nghĩa, giải thích bằng tiếng Việt, phân biệt hai thuật ngữ gần nghĩa, hoặc nhận diện thuật ngữ trong một câu mẫu. Không bắt buộc viết prompt/instruction tiếng Anh.
 
 ### I. Verification & failure modes — Kiểm chứng và lỗi thường gặp
 
@@ -116,33 +131,34 @@ Hướng dẫn cách kiểm output và ít nhất một failure mode. Verificati
 
 ### J. Language checkpoint — Kiểm tra tiếng Anh
 
-Trước PASS, người học nên:
+Trước PASS trong Vocabulary-first mode, người học cần:
 
-- nhận diện thuật ngữ tiếng Anh chính;
+- nhận diện các thuật ngữ tiếng Anh chính;
 - giải thích 3–5 thuật ngữ bằng tiếng Việt;
-- hiểu một số instruction tiếng Anh phổ biến;
-- viết một câu tiếng Anh ngắn trong **English track**.
+- hiểu nghĩa của thuật ngữ trong ngữ cảnh AI/ChatGPT;
+- phân biệt được các thuật ngữ dễ nhầm khi lesson có yêu cầu.
 
-Khả năng viết prompt tiếng Anh không phải điều kiện để chứng minh kỹ năng vận hành ChatGPT bằng tiếng Việt.
+**Không yêu cầu viết prompt tiếng Anh ở giai đoạn hiện tại.** Khả năng viết prompt tiếng Anh sẽ được mở lại ở một phase riêng sau này.
 
 ### K. PASS criteria — Tiêu chí PASS
 
 **ChatGPT track:** Explain → Execute → Diagnose → Verify → Transfer.  
-**English track:** Recognize → Understand → Use.
+**English track hiện tại:** Recognize → Understand.  
+**English Use:** DEFERRED — không chặn PASS.
 
-Không yêu cầu tiếng Anh hoàn hảo. Chấm đúng ngữ cảnh, không chấm theo chuẩn thi học thuật.
+Nếu lesson cũ còn ghi `Use` hoặc yêu cầu tự viết instruction/prompt tiếng Anh, áp dụng chuẩn này làm quy tắc ưu tiên cho tới khi lesson đó được cập nhật.
 
 ## 4. Progressive English exposure — Tăng dần tiếp xúc tiếng Anh
 
-English exposure có thể tăng từ Stage A đến Stage C ở **phần đọc hiểu, từ vựng và tài liệu tham khảo**.
+English exposure có thể tăng từ Stage A đến Stage C ở **phần đọc hiểu, từ vựng và tài liệu tham khảo** mà chưa cần tăng yêu cầu viết tiếng Anh.
 
 | Stage | English-learning emphasis | Operating language |
 |---|---|---|
-| Stage A — Operator | thuật ngữ + mẫu câu cơ bản | Vietnamese-first |
-| Stage B — Power User | đọc product docs nhiều hơn | Vietnamese-first |
-| Stage C — Builder | đọc developer docs/code/API nhiều hơn | Vietnamese-first; giữ nguyên code/technical syntax |
+| Stage 0 / Stage A | từ vựng + nghĩa trong ngữ cảnh | Vietnamese-first |
+| Stage B — Power User | từ vựng + đọc product docs nhiều hơn | Vietnamese-first |
+| Stage C — Builder | từ vựng kỹ thuật + đọc developer docs/code/API | Vietnamese-first; giữ nguyên code/technical syntax |
 
-Tăng English exposure **không có nghĩa** đảo prompt thực hành sang tiếng Anh làm mặc định.
+Khi người học chủ động chuyển sang phase luyện viết tiếng Anh, mới kích hoạt lại mức `Use`.
 
 ## 5. Vocabulary policy — Quy tắc thuật ngữ
 
@@ -158,6 +174,7 @@ Tăng English exposure **không có nghĩa** đảo prompt thực hành sang ti�
 - Không dùng bản dịch từng chữ thiếu tự nhiên.
 - Không giấu thuật ngữ chuẩn phía sau bản dịch tiếng Việt-only.
 - Không bắt người học dùng prompt tiếng Anh trong ChatGPT track.
+- Trong Vocabulary-first mode, không bắt người học tự viết prompt/instruction tiếng Anh để PASS.
 - Không đặt English prompt trước rồi buộc người học tự dịch để thực hành.
 - Không yêu cầu grammar hoàn hảo để PASS kỹ năng AI.
 - Không dạy thuật ngữ/tính năng đã lỗi thời khi nguồn chính thức đã thay đổi.
@@ -181,7 +198,8 @@ Một lesson chưa đạt READY nếu còn một trong các lỗi sau:
 
 - prompt copy/paste chính chỉ có tiếng Anh;
 - task brief chính chỉ có tiếng Anh;
-- bài ChatGPT exercise bắt người học dùng prompt tiếng Anh ngoài mục tiêu English track;
+- bài ChatGPT exercise bắt người học dùng prompt tiếng Anh;
+- trong Vocabulary-first mode, English exercise bắt buộc tự viết prompt/instruction tiếng Anh để PASS;
 - đáp án mẫu chỉ đưa prompt tiếng Anh;
 - verification instruction chính chỉ có tiếng Anh;
 - thuật ngữ tiếng Anh được dùng nhưng không có giải thích tiếng Việt phù hợp.
