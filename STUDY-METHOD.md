@@ -1,15 +1,17 @@
 # Study Method
 
-> **Bilingual learning rule:** every lesson teaches ChatGPT/AI and practical English together. See [docs/BILINGUAL-LESSON-STANDARD.md](docs/BILINGUAL-LESSON-STANDARD.md).
+> **Bilingual learning rule:** every lesson teaches ChatGPT/AI together with practical English vocabulary. See [docs/BILINGUAL-LESSON-STANDARD.md](docs/BILINGUAL-LESSON-STANDARD.md).
 
 ## 0. Hai track học song song
 
 Mỗi lesson có hai track:
 
 - **ChatGPT track:** hiểu khái niệm → thực hiện → chẩn đoán lỗi → kiểm chứng → áp dụng sang tình huống khác.
-- **English track:** nhận diện thuật ngữ → hiểu nghĩa trong ngữ cảnh → dùng được thuật ngữ/mẫu câu khi làm việc với AI.
+- **English track hiện tại:** nhận diện thuật ngữ → hiểu nghĩa bằng tiếng Việt → hiểu nghĩa trong ngữ cảnh AI/ChatGPT.
 
-Không học tiếng Anh như một môn tách rời. Từ vựng, mẫu câu và bài luyện đều lấy trực tiếp từ công việc ChatGPT/AI.
+Hiện tại dùng **Vocabulary-first mode**: chưa yêu cầu tự viết prompt hoặc instruction bằng tiếng Anh. Mức `Use` được để dành cho phase học tiếng Anh sau và không chặn PASS.
+
+Không học tiếng Anh như một môn tách rời. Từ vựng và ví dụ đều lấy trực tiếp từ công việc ChatGPT/AI.
 
 ## 1. Học theo năng lực, không theo số trang đã đọc
 
@@ -40,13 +42,12 @@ ChatGPT track chỉ PASS khi đạt cả 5:
 - **Verify:** có cách kiểm tra kết quả.
 - **Transfer:** áp dụng được vào tình huống khác.
 
-English track cần đạt 3 mức:
+English track hiện tại cần đạt 2 mức:
 
-- **Recognize:** nhận ra thuật ngữ và mẫu câu chính.
-- **Understand:** giải thích được ý nghĩa trong ngữ cảnh AI.
-- **Use:** tự dùng được một số thuật ngữ/mẫu câu trong prompt hoặc workflow.
+- **Recognize:** nhận ra thuật ngữ chính.
+- **Understand:** giải thích được ý nghĩa bằng tiếng Việt và trong ngữ cảnh AI.
 
-English track ưu tiên khả năng sử dụng thực tế, không yêu cầu ngữ pháp hoàn hảo.
+**Use:** DEFERRED — chưa yêu cầu tự viết prompt/instruction tiếng Anh và không chặn PASS.
 
 ## 4. Evidence
 
@@ -83,6 +84,6 @@ Nếu bị kẹt, ghi bước và lỗi trước khi hỏi lại. Nếu tính n�
 Evidence là đầu ra của người học. Dùng [evidence checklist](evidence/README.md), thay dữ liệu thật bằng dữ liệu giả lập và xóa secret. Có thể dùng private notes hoặc private repository độc lập.
 
 ## 8. Ôn tập khi chưa PASS
-Chấm từng năng lực Explain, Execute, Diagnose, Verify, Transfer và English. Ôn đúng tiêu chí thiếu, làm input khác và ghi lần đánh giá lại.
+Chấm từng năng lực Explain, Execute, Diagnose, Verify, Transfer và English vocabulary. Ôn đúng tiêu chí thiếu, làm input khác và ghi lần đánh giá lại.
 
 Một session mục tiêu là 50 phút; có thể rút còn 30 phút bằng cách gộp recall với đọc docs hoặc làm một bài transfer ngắn hơn. Không bỏ verification.
