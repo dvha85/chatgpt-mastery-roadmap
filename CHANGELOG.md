@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased — Learn curriculum sync — 2026-10-22
+
+- Đối chiếu ChatGPT Learn, các trang nền tảng/tính năng, What's new, changelog và Help Center; thêm `docs/LEARN-SYNC-2026-10-22.md` với nguồn và phạm vi xác minh.
+- Cập nhật `CURRICULUM.md` cho 56 bài cốt lõi, giữ nguyên ID, thứ tự nền tảng và tiêu chí PASS chính; làm rõ model benchmark, Project/local context, file review, Work local/cloud, permissions, plugins/skills/tasks và nhánh Builder.
+- Thêm bốn chuyên đề tùy chọn PLANNED: dots, Space, Sites, workspace administration; có prerequisite, lab dự kiến, evidence và fallback; không cộng vào 56 bài cốt lõi.
+- Cập nhật `OFFICIAL-SOURCES.md`, tách nguồn đã đọc khỏi trang chỉ định tuyến; ngày rà soát đề cương không thay ngày QA từng bài.
+- Cập nhật `docs/FEATURE-AVAILABILITY.md`: không lấy tài liệu làm bằng chứng tài khoản có quyền; phân biệt đọc tài liệu, kiểm tính năng, READY và PASS.
+- Đồng bộ README, START-HERE và CONTENT-STATUS; sửa cách mô tả pilot: đã bắt đầu ở BOOT nhưng chưa hoàn thành đầu-cuối, P3 release gate vẫn pending.
+- Giữ Vocabulary-first; không bắt viết câu/prompt tiếng Anh. Không sửa PROGRESS hoặc evidence người học; không tự nâng PLANNED thành READY.
+- Đây là cập nhật chương trình và định tuyến nội dung, không phải phát hành đầy đủ M02–M11 hoặc xác nhận đã kiểm thử các tính năng mới.
+
 ## Unreleased — v0.2.0 preview — 2026-09-11
 
 - Chuyển ngôn ngữ vận hành của khóa học sang **Vietnamese-first**: prompt, task brief, follow-up, verification prompt, ví dụ thực hành và ChatGPT exercise dùng tiếng Việt làm bản chính.
@@ -38,7 +49,6 @@
 - Chuyển toàn bộ roadmap sang chuẩn bài học song ngữ English–Tiếng Việt.
 - Thêm `LESSON-TEMPLATE.md` cho cấu trúc bài học thống nhất.
 - Thêm `GLOSSARY.md` để tích lũy thuật ngữ ChatGPT/AI.
-- Thêm `docs/BILINGUAL-LESSON-STANDARD.md`.
 - Bổ sung English track: Recognize → Understand → Use.
 - Quy định English exposure tăng dần Stage A → B → C nhưng luôn giữ hỗ trợ tiếng Việt.
 

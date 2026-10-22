@@ -1,150 +1,58 @@
 # ChatGPT Mastery Roadmap
 
-Lộ trình học ChatGPT từ **người dùng hiệu quả** đến **power user** và **AI/agent builder**.
+Lộ trình từ người mới dùng ChatGPT đến **Operator — sử dụng hiệu quả**, **Power User — làm việc nhiều bước**, và **Builder — xây dựng hệ thống AI**.
 
-Khóa học vẫn được viết **song ngữ English–Tiếng Việt** để vừa học ChatGPT vừa xây khả năng đọc tài liệu AI bằng tiếng Anh. Tuy nhiên, **ngôn ngữ vận hành mặc định là tiếng Việt**: prompt, task brief, follow-up, ví dụ thực hành, verification prompt và bài ChatGPT exercise dùng tiếng Việt làm bản chính. Tiếng Anh được giữ ở phần thuật ngữ, `English reference` và English track.
+> **Đề cương đồng bộ với ChatGPT Learn:** 2026-10-22. Đây là ngày rà soát nguồn, không phải phiên bản sản phẩm OpenAI.
+> **Biên soạn:** 56 bài cốt lõi, gồm **11 READY / 45 PLANNED**; thêm 4 chuyên đề tùy chọn PLANNED ngoài số bài cốt lõi.
+> **Phát hành:** v0.2.0 preview; U05 pre-pilot complete, U06 pilot đã bắt đầu nhưng chưa hoàn thành gate đầu-cuối.
+> **Tiến độ người học:** BOOT.1 và BOOT.2 PASS; BOOT.3 IN PROGRESS. Nguồn chính thức trong repo là [PROGRESS.md](PROGRESS.md).
 
-> Dùng nhanh hằng ngày: [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md)  
-> Xem quy tắc đầy đủ: [Vietnamese-first Usage](docs/VIETNAMESE-FIRST-USAGE.md)  
-> Mục tiêu phát hành gần nhất: v0.2.0  
-> Trạng thái hiện tại: preview — P2 complete, U05 pre-pilot complete, U06 beginner pilot pending  
-> Source snapshot: 2026-09-10  
-> Nguyên tắc: official-source-first, practice-first, verify-before-trust.
+## Bắt đầu hoặc học tiếp
 
-## Mức độ hoàn thiện hiện tại
+Người mới: [START-HERE](START-HERE.md) → [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md).
 
-Repo hiện có **11 bài READY**: 4 bài BOOT, 3 bài M00 và 4 bài M01. Các bài READY, assessment nền tảng và 3 guided Prompt Labs đã được chuẩn hóa theo **Vietnamese-first** để người học không phải tự dịch prompt sang tiếng Việt trước khi thực hành. M02–M11 vẫn được phát hành dần.
+Người học hiện tại: tiếp tục [BOOT.3 — Safe use & verification](modules/BOOT-getting-started/BOOT.3-safe-use-and-verification.md). Không học lại BOOT.1–BOOT.2 chỉ vì giáo trình được cập nhật.
 
-Người mới bắt đầu bằng [BOOT.1](modules/BOOT-getting-started/BOOT.1-first-chat.md), theo [START-HERE](START-HERE.md), và kiểm tra trạng thái trong [CONTENT-STATUS](docs/CONTENT-STATUS.md).
+Mở [CURRICULUM](CURRICULUM.md) để xem chương trình, [CONTENT-STATUS](docs/CONTENT-STATUS.md) để biết bài đã có, và [Learn Sync](docs/LEARN-SYNC-2026-10-22.md) để xem thay đổi mới cùng nguồn.
 
-## Mục tiêu
+## Tiếng Việt trước, tiếng Anh học từ vựng
 
-Sau khi hoàn thành lộ trình, người học có thể:
-1. Chọn đúng bề mặt làm việc: Chat, ChatGPT Work hoặc Codex.
-2. Viết yêu cầu rõ theo Goal + Context + Output + Boundaries.
-3. Chọn model/reasoning effort phù hợp.
-4. Quản lý context bằng Projects, chats, files, personalization và memory.
-5. Dùng Web Search và Deep Research có phương pháp, biết kiểm tra nguồn.
-6. Làm việc với file, hình ảnh, voice và artifact có vòng review rõ.
-7. Giao việc dài cho ChatGPT Work, Browser và Computer Use với quyền hạn hợp lý.
-8. Kết nối dữ liệu/công cụ qua Plugins, hiểu permission và rủi ro.
-9. Biến workflow lặp lại thành Skills và Scheduled Tasks.
-10. Dùng Codex + GitHub cho công việc kỹ thuật.
-11. Hiểu cầu nối từ ChatGPT sang API, MCP và Agents SDK.
-12. Thiết kế workflow agentic thực tế, có kiểm thử và evaluation.
+Giải thích, yêu cầu gửi ChatGPT, task brief, ví dụ, bài tập và kiểm chứng đều dùng tiếng Việt. Tiếng Anh giữ ở tên chuẩn và phần từ vựng có giải nghĩa.
 
-## Roadmap
+**English track hiện tại: Vocabulary-first — Recognize + Understand.** Chỉ cần nhận diện và hiểu từ vựng. Viết câu hoặc prompt tiếng Anh là **DEFERRED**, không bắt buộc, không chặn PASS và không tự trở thành bắt buộc ở chặng sau.
 
-```mermaid
-flowchart LR
-  A[Stage A: Operator] --> B[Stage B: Power User]
-  B --> C[Stage C: Builder]
-  C --> D[Capstone]
+Xem [Vietnamese-first Usage](docs/VIETNAMESE-FIRST-USAGE.md), [Bilingual Lesson Standard](docs/BILINGUAL-LESSON-STANDARD.md), [Lesson Template](LESSON-TEMPLATE.md), [Glossary](GLOSSARY.md).
 
-  A --> A0[M00 Mental Model]
-  A --> A1[M01 Prompting]
-  A --> A2[M02 Models]
-  A --> A3[M03 Context & Projects]
-  A --> A4[M04 Search & Research]
+## Chương trình
 
-  B --> B5[M05 Files & Multimodal]
-  B --> B6[M06 Work & Computer Use]
-  B --> B7[M07 Plugins]
-  B --> B8[M08 Skills & Automation]
-
-  C --> C9[M09 Codex & GitHub]
-  C --> C10[M10 API, MCP & Agents]
-  C --> C11[M11 System Design]
-```
-
-## Ba chặng học
-
-| Stage | Module | Kết quả |
+| Chặng | Phạm vi | Kết quả |
 |---|---|---|
-| A — Operator | M00–M04 | Dùng ChatGPT đúng cách, prompt tốt, quản lý context, search/research đáng tin cậy |
-| B — Power User | M05–M08 | Làm việc đa phương thức, giao việc dài, dùng plugins, skills và automation |
-| C — Builder | M09–M11 | Codex/GitHub, API/MCP/Agents và thiết kế hệ thống agentic |
-| Capstone | Project cuối khóa | Workflow hoàn chỉnh có nguồn dữ liệu, tool, review, automation và evaluation |
+| Khởi động | BOOT.1–BOOT.4 | Hội thoại, kiểm chứng, dữ liệu an toàn và lưu bằng chứng. |
+| Operator | M00–M04 | Chọn cách làm việc, giao việc, chọn model, quản lý ngữ cảnh và nghiên cứu có nguồn. |
+| Power User | M05–M08 | File/ảnh/voice, Work, quyền công cụ, plugins, skills và tự động hóa có kiểm tra. |
+| Builder | M09–M11 | Codex/GitHub, API/MCP/Agents và thiết kế hệ thống; học sau nền tảng. |
+| Capstone | Một workflow thực tế | Sản phẩm có nguồn, tiêu chí đánh giá, điểm review và giới hạn rõ. |
+| Tùy chọn | X01–X04 | dots, Space, Sites, quản trị workspace; học theo nhu cầu và quyền truy cập. |
 
-## Cách học
+Bản đồng bộ bổ sung phân biệt local/cloud, quyền thực thi với phê duyệt, file nguồn với sản phẩm được chia sẻ, và chạy theo lịch với giao trách nhiệm liên tục. Không yêu cầu tài khoản phải có mọi tính năng xuất hiện trong tài liệu Learn.
 
-Mỗi lesson theo vòng:
+## Học bằng thực hành
 
 **READ → EXPLAIN → PRACTICE → VERIFY → BUILD → REFLECT**
 
-Không PASS chỉ vì đã đọc. Một lesson chỉ PASS khi bạn có thể giải thích, thực hiện task thật, chẩn đoán failure mode, kiểm kết quả và lưu evidence.
+Không PASS chỉ vì đọc xong. Cần giải thích được, thực hành, nhận diện lỗi, kiểm kết quả và lưu evidence. Phần thiết kế/mô phỏng phải ghi rõ; không thay cho evidence vận hành thật khi bài yêu cầu thao tác thật.
 
-Chi tiết: [STUDY-METHOD.md](STUDY-METHOD.md)
+Sau M01.4, làm [P-001 Summary](labs/examples/P-001-summary.md), [P-002 Planning](labs/examples/P-002-planning.md), [P-003 Comparison](labs/examples/P-003-comparison.md), rồi [Evaluation Lab](labs/EVALUATION-LAB.md) và [M01 Check](assessments/M01-CHECK.md). Dữ liệu giả lập ở [Sample Brief](labs/data/sample-brief.md).
 
-### Học ChatGPT + English cùng lúc
+## Tài liệu dùng thường xuyên
 
-Mọi lesson tuân theo:
-- [Vietnamese-first Usage](docs/VIETNAMESE-FIRST-USAGE.md) — quy tắc ngôn ngữ vận hành;
-- [Bilingual Lesson Standard](docs/BILINGUAL-LESSON-STANDARD.md) — chuẩn song ngữ;
-- [LESSON-TEMPLATE.md](LESSON-TEMPLATE.md) — template biên soạn;
-- [GLOSSARY.md](GLOSSARY.md) — từ vựng tích lũy.
+- [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md) và [M00 Vietnamese Prompt Pack](modules/M00-mental-model/M00-VI-PROMPT-PACK.md).
+- [Study Method](STUDY-METHOD.md), [Assessment Guide](assessments/README.md), [Evidence Template](evidence/TEMPLATE.md).
+- [Feature Availability](docs/FEATURE-AVAILABILITY.md), [Troubleshooting](docs/TROUBLESHOOTING.md), [Beginner Pilot](docs/BEGINNER-PILOT.md).
+- [Official Sources](OFFICIAL-SOURCES.md), [Update Plan](docs/UPDATE-PLAN.md), [Changelog](CHANGELOG.md), [Capstone](capstone/README.md).
 
-**ChatGPT track:** có thể hoàn thành hoàn toàn bằng tiếng Việt.  
-**English track:** học thuật ngữ, mẫu câu và đọc hiểu tài liệu chính thức.  
-English exposure có thể tăng ở module sau, nhưng **không đảo prompt vận hành sang tiếng Anh làm mặc định**.
+## Nguồn và phạm vi cập nhật
 
-### Practice system / Hệ thống thực hành
+Nguồn chính là [ChatGPT Learn](https://learn.chatgpt.com/docs). Help Center dùng để kiểm điều kiện sản phẩm; OpenAI Developer Docs dùng cho API/SDK; Academy và Use Cases hỗ trợ thực hành.
 
-Sau M01.4:
-- [P-001 — Summary](labs/examples/P-001-summary.md)
-- [P-002 — Planning](labs/examples/P-002-planning.md)
-- [P-003 — Comparison](labs/examples/P-003-comparison.md)
-
-Sau đó chấm bằng [Evaluation Lab](labs/EVALUATION-LAB.md) và checkpoint trong [assessments/](assessments/README.md). Dữ liệu lab là giả lập và có ground truth trong [labs/data/sample-brief.md](labs/data/sample-brief.md).
-
-## Bắt đầu
-
-1. Mở [START-HERE.md](START-HERE.md).
-2. Mở [ChatGPT Cheat Sheet](docs/CHATGPT-CHEATSHEET.md) khi cần prompt/mẫu kiểm chứng dùng ngay.
-3. Đọc [CURRICULUM.md](CURRICULUM.md) để biết thứ tự.
-4. Đọc [STUDY-METHOD.md](STUDY-METHOD.md) để hiểu vòng học và PASS.
-5. Mở [PROGRESS.md](PROGRESS.md) để ghi năng lực.
-6. Chỉ học lesson có `Content status = READY`.
-7. Khi cần prompt tiếng Việt cho M00, dùng [M00 Vietnamese Prompt Pack](modules/M00-mental-model/M00-VI-PROMPT-PACK.md).
-
-## Cấu trúc chính
-
-```text
-README.md
-CURRICULUM.md
-PROGRESS.md
-STUDY-METHOD.md
-LESSON-TEMPLATE.md
-GLOSSARY.md
-START-HERE.md
-modules/
-  BOOT-getting-started/
-  M00-mental-model/
-  M01-prompting/
-  M02-models-reasoning/ ... M11-agentic-system-design/
-assessments/
-labs/
-evidence/
-docs/
-capstone/
-```
-
-## Nguồn học
-Nguồn chính là tài liệu chính thức của OpenAI, đặc biệt:
-- ChatGPT Learn: https://learn.chatgpt.com/docs
-- ChatGPT Use Cases: https://learn.chatgpt.com/use-cases
-- OpenAI Help Center: https://help.openai.com/
-- OpenAI Academy: https://academy.openai.com/
-- OpenAI Developer Docs: https://developers.openai.com/
-
-Xem [OFFICIAL-SOURCES.md](OFFICIAL-SOURCES.md).
-
-## Quy tắc cập nhật
-
-Trước khi viết/cập nhật lesson:
-1. kiểm tài liệu chính thức hiện tại;
-2. ghi source snapshot;
-3. phân biệt nguyên lý bền vững với UI/tính năng có thể đổi;
-4. không giữ hướng dẫn deprecated;
-5. áp dụng Vietnamese-first cho mọi prompt/task brief/ví dụ thực hành;
-6. QA phải xác nhận người mới hoàn thành ChatGPT track mà không cần tự dịch prompt từ tiếng Anh.
+**Đã cập nhật đề cương không có nghĩa đã viết xong khóa học.** Bản 2026-10-22 không thay đổi PROGRESS, không tự nâng PLANNED thành READY và không tuyên bố đã kiểm thử các tính năng trên tài khoản người học. Ngày kiểm nguồn từng bài được giữ riêng.

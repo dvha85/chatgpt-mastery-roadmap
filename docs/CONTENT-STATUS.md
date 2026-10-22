@@ -1,25 +1,26 @@
 # Content Status — Trạng thái biên soạn
 
-> Theo dõi tài liệu khóa học; [PROGRESS.md](../PROGRESS.md) theo dõi năng lực người học.
+> Tài liệu khóa học được theo dõi ở đây; [PROGRESS.md](../PROGRESS.md) theo dõi năng lực người học. Cập nhật đề cương không tự tạo bài giảng hay PASS.
 
 | Status | Ý nghĩa | Chuyển bài được? |
 |---|---|---|
-| `PLANNED` | Có trong curriculum/kế hoạch, chưa có bài hoàn chỉnh | Không |
+| `PLANNED` | Có đề cương, chưa có bài hoàn chỉnh | Không |
 | `DRAFT` | Có bản thảo, chưa đủ kiểm tra | Không |
-| `IN REVIEW` | Đang kiểm tra nguồn, bài tập, song ngữ hoặc pilot | Không |
+| `IN REVIEW` | Đang kiểm nguồn, bài tập, ngôn ngữ hoặc pilot | Không |
 | `READY` | Đủ tiêu chuẩn bài, QA evidence và link hợp lệ | Có |
 | `NEEDS UPDATE` | Bài READY cần rà lại vì nguồn/UI/nội dung đổi | Không |
 
 ## Snapshot
 
-- Source snapshot: 2026-09-10
-- Mục tiêu: **56 lesson** (4 BOOT + 52 lesson M00–M11)
-- Hiện tại: **11 READY, 45 PLANNED**; BOOT, M00 và M01 đã có bài giảng. M02–M11 vẫn đang triển khai.
-- Gate P2 content scope: **complete**.
-- U05 pre-pilot P3 work: **complete** — 3 guided labs, fixed synthetic data, Evaluation Lab, assessment guide/answer key và pre-pilot QA đã có.
-- P3 release gate: **NOT YET PASS** — còn U06 beginner pilot thật, sửa blocker/retest và release decision.
+- **Curriculum/source-map sync:** 2026-10-22, xem [Learn Sync](LEARN-SYNC-2026-10-22.md).
+- **Lesson QA/source dates:** giữ nguyên từng hàng bên dưới; không đánh dấu toàn bộ bài đã QA lại ngày 2026-10-22.
+- **Core scope:** 56 lesson (4 BOOT + 52 bài M00–M11); **11 READY / 45 PLANNED**.
+- **Optional scope:** 4 chuyên đề X01–X04 đều PLANNED; ngoài số 56 bài cốt lõi, chưa có lesson hoàn chỉnh.
+- P2 content scope đã hoàn tất. U05 pre-pilot P3 work đã hoàn tất.
+- U06 pilot đã bắt đầu theo PROGRESS: BOOT.1–BOOT.2 PASS, BOOT.3 IN PROGRESS. Chưa hoàn thành pilot đầu-cuối BOOT → M00 → M01.
+- **P3 release gate: NOT YET PASS**; vẫn cần hoàn thành pilot, sửa blocker, retest và quyết định release.
 
-## Lesson registry
+## Lesson registry — Giữ nguyên mã bài cốt lõi
 
 | ID | Path dự kiến | Status | Source checked | QA evidence |
 |---|---|---|---|---|
@@ -80,21 +81,21 @@
 | M11.4 | `modules/M11-agentic-system-design/M11.4-observability.md` | PLANNED | — | — |
 | M11.5 | `modules/M11-agentic-system-design/M11.5-production-readiness.md` | PLANNED | — | — |
 
-## Module QA
+## Optional registry — Chưa phải lesson phát hành
 
-- BOOT.1–BOOT.4 đã được kiểm tra theo [BOOT QA checklist](../labs/examples/BOOT-qa-check.md).
-- M00.1–M00.3 và bộ 10 tình huống đã được kiểm tra theo [M00 QA checklist](../labs/examples/M00-qa-check.md).
-- M01.1–M01.4 và M01 Check đã được kiểm tra theo [M01 QA checklist](../labs/examples/M01-qa-check.md).
-- U05 Prompt Labs, fixed data, Evaluation Lab và assessment integration đã được kiểm tra theo [U05 Pre-Pilot QA](../labs/examples/U05-qa-check.md).
-- [Beginner Pilot](BEGINNER-PILOT.md) đã được chuẩn bị nhưng chưa chạy; không dùng self-QA để tuyên bố đã validated với người mới thật.
-- `READY` là trạng thái tài liệu; người học vẫn bắt đầu với `NOT STARTED` trong PROGRESS.
+| Mã | Chuyên đề | Trạng thái | Đặc tả hiện có |
+|---|---|---|---|
+| X01 | dots | PLANNED | [Learn Sync](LEARN-SYNC-2026-10-22.md) |
+| X02 | Space / Pages / collaboration | PLANNED | [Learn Sync](LEARN-SYNC-2026-10-22.md) |
+| X03 | Sites | PLANNED | [Learn Sync](LEARN-SYNC-2026-10-22.md) |
+| X04 | Workspace administration | PLANNED | [Learn Sync](LEARN-SYNC-2026-10-22.md) |
 
-## Quy trình đổi trạng thái
+Chưa tạo đường dẫn lesson giả cho X01–X04. Chỉ thêm bảng tiến độ chuyên đề khi người học chọn và có bài READY; không sửa các hàng hiện có của PROGRESS trong đợt đồng bộ.
 
-1. Viết bài theo [LESSON-TEMPLATE](../LESSON-TEMPLATE.md).
-2. Ghi source snapshot, môi trường, dữ liệu, fallback và rubric.
-3. Reviewer kiểm tra ví dụ, bài tự làm, đáp án, song ngữ, link và privacy.
-4. Ghi QA evidence; với release gate yêu cầu pilot, pilot thật phải được ghi riêng trước khi tuyên bố đã validated khả năng tự học.
-5. Khi nguồn/UI đổi, chuyển NEEDS UPDATE và ghi phạm vi.
+## QA và cách đổi trạng thái
 
-`READY` của tài liệu không tự động làm `PROGRESS` của người học thành `PASS`.
+BOOT: [QA](../labs/examples/BOOT-qa-check.md). M00: [QA](../labs/examples/M00-qa-check.md). M01: [QA](../labs/examples/M01-qa-check.md). U05: [Pre-Pilot QA](../labs/examples/U05-qa-check.md).
+
+Viết theo [Lesson Template](../LESSON-TEMPLATE.md); ghi nguồn, môi trường, dữ liệu, fallback và rubric. Kiểm ví dụ, bài tự làm, đáp án, ngôn ngữ, link và privacy; lưu QA evidence trước khi chuyển READY. Nếu thay đổi sản phẩm làm hướng dẫn sai, đánh dấu NEEDS UPDATE và sửa đúng bài; không mặc định mọi bài cũ hỏng chỉ vì thêm một tính năng mới.
+
+Release gate yêu cầu pilot thật theo [Beginner Pilot](BEGINNER-PILOT.md). Self-QA và cập nhật nguồn không thay thế pilot. `READY` của bài không biến `PROGRESS` thành `PASS`.
