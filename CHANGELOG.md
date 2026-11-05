@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Learn delta sync — 2026-11-05
+
+- Kiểm nguồn mới nhất ChatGPT Learn (What's New tuần 2026-10-26–30, Changelog tới 2026-10-29, Models, Model Selection, Meet dots); ghi riêng [báo cáo có nguồn](docs/LEARN-SYNC-2026-11-05.md).
+- Bổ sung GPT-6.1 Terra vào nhánh M02/M06, giới hạn Work/Codex (không phải Chat); cập nhật dots iMessage/RCS beta cho Pro tại Mỹ ở X01, Codex CLI 0.164–0.166 ở M09 và media trên iOS ở M05.
+- Cập nhật bản đồ chương trình, nguồn, điều kiện tính năng và README; giữ ngày QA cũ. Không kiểm thử tính năng, không tạo lesson READY giả.
+- Giữ PROGRESS.md, 56 bài cốt lõi (11 READY/45 PLANNED), 4 chuyên đề tùy chọn PLANNED và chính sách Vocabulary-first, không yêu cầu viết prompt tiếng Anh.
+
 ## Unreleased — Learn curriculum sync — 2026-10-22
 
 - Đối chiếu ChatGPT Learn, các trang nền tảng/tính năng, What's new, changelog và Help Center; thêm `docs/LEARN-SYNC-2026-10-22.md` với nguồn và phạm vi xác minh.

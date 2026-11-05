@@ -1,6 +1,6 @@
 # Curriculum — Chương trình học ChatGPT
 
-> **Curriculum snapshot:** 2026-10-22, đối chiếu ChatGPT Learn và nguồn chính thức liên quan. Đây là ngày rà soát giáo trình, không phải tên phiên bản hay ngày phát hành sản phẩm của OpenAI.
+> **Curriculum nền:** 2026-10-22. **Cập nhật thông tin mới nhất:** 2026-11-05, xem [Learn Sync 2026-11-05](docs/LEARN-SYNC-2026-11-05.md). Ngày rà soát không phải ngày phát hành sản phẩm hay QA toàn bộ lesson.
 > **Phạm vi:** giữ 56 bài cốt lõi (4 BOOT + 52 bài M00–M11), bổ sung 4 chuyên đề tùy chọn ở trạng thái PLANNED.
 > **Publication status:** có đề cương không có nghĩa đã có bài giảng. Xem [Content Status](docs/CONTENT-STATUS.md).
 > **Tiến độ cá nhân:** chỉ lấy từ [PROGRESS.md](PROGRESS.md); cập nhật chương trình không làm thay đổi PASS.
@@ -26,6 +26,17 @@ Mỗi bài: đọc → giải thích lại → thực hành → kiểm chứng �
 | Use cases / Resources / Training | Nguồn gợi ý lab; không thay thế bằng chứng thực hành |
 
 Nguồn và thay đổi chi tiết: [Official Sources](OFFICIAL-SOURCES.md), [Learn Sync 2026-10-22](docs/LEARN-SYNC-2026-10-22.md). Không biến toàn bộ mục lục tài liệu sản phẩm thành các bài bắt buộc.
+
+## Bổ sung đã xác minh ngày 2026-11-05
+
+| Phần | Delta từ nguồn chính thức | Lưu ý |
+|---|---|---|
+| M02 / M06 | [GPT-6.1 Terra](https://learn.chatgpt.com/docs/models) cho Work và Codex, tập trung visual reasoning/computer use; so kết quả theo benchmark. | Không áp dụng cho Chat; cần kiểm quyền thực tế. |
+| X01 dots | [Nhắn iMessage/RCS](https://learn.chatgpt.com/docs/whats-new) được công bố ở beta cho Pro tại Mỹ. | Không coi có sẵn tại Việt Nam. |
+| M09 | [Codex CLI 0.164–0.166](https://learn.chatgpt.com/docs/changelog) mở rộng presets, tiếp tục queue và kiểm lỗi mạng. | Không bắt học CLI trong BOOT hoặc M00. |
+| M05 | [ChatGPT iOS 1.2026.293](https://learn.chatgpt.com/docs/changelog) có phát audio/video trực tiếp trong phản hồi. | Tùy thiết bị, phiên bản và rollout. |
+
+Chi tiết nguồn, ngày, phạm vi và các bài thực hành cần bổ sung: [Learn Sync 2026-11-05](docs/LEARN-SYNC-2026-11-05.md). Chưa đổi status lesson hay tiêu chí PASS.
 
 ## Stage 0 — Getting started / Khởi động
 

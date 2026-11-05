@@ -12,7 +12,7 @@
 
 ## Snapshot
 
-- **Curriculum/source-map sync:** 2026-10-22, xem [Learn Sync](LEARN-SYNC-2026-10-22.md).
+- **Curriculum/source-map sync mới nhất:** 2026-11-05, [Learn Sync](LEARN-SYNC-2026-11-05.md); lần nền: 2026-10-22, [Learn Sync](LEARN-SYNC-2026-10-22.md). Không tái QA lesson trong đợt cập nhật tin.
 - **Lesson QA/source dates:** giữ nguyên từng hàng bên dưới; không đánh dấu toàn bộ bài đã QA lại ngày 2026-10-22.
 - **Core scope:** 56 lesson (4 BOOT + 52 bài M00–M11); **11 READY / 45 PLANNED**.
 - **Optional scope:** 4 chuyên đề X01–X04 đều PLANNED; ngoài số 56 bài cốt lõi, chưa có lesson hoàn chỉnh.

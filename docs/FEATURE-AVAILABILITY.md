@@ -3,6 +3,17 @@
 > **Rà soát tài liệu:** 2026-10-22. **Kiểm thử trên tài khoản người học:** chưa thực hiện trong đợt cập nhật này.
 > Không suy ra quyền truy cập từ việc một tính năng xuất hiện trong Learn hoặc từ tên gói tài khoản.
 
+## Bổ sung điều kiện cần kiểm — 2026-11-05
+
+| Tính năng | Điều nguồn chính thức xác nhận | Cần xác minh trước bài thực hành |
+|---|---|---|
+| GPT-6.1 Terra | Ra mắt **2026-10-26** cho Work và Codex trên các gói Plus/Pro/Business/Enterprise/Edu; **không có trong Chat**. [Nguồn](https://learn.chatgpt.com/docs/changelog). | Bộ chọn model của surface phù hợp, ứng dụng/phiên bản, rollout và chính sách workspace. Không suy từ việc có Chat là dùng được Terra. |
+| Nhắn với dots | iMessage/RCS qua điện thoại đang **beta với Pro tại Mỹ** ở tuần 2026-10-26–30. [Nguồn](https://learn.chatgpt.com/docs/whats-new). | Quyền dot, quốc gia, kênh được phép, quyền kết nối; ngoài Mỹ chỉ xem lý thuyết hoặc dùng ChatGPT khi có dot. |
+| Codex CLI 0.166.0 | Các chức năng `queue --resume`, `doctor --network-only` và model catalog được ghi trong changelog 2026-10-29. [Nguồn](https://learn.chatgpt.com/docs/changelog). | Phiên bản CLI đã cài, môi trường hỗ trợ, quyền và việc lệnh có hoạt động thật. |
+| ChatGPT iOS 1.2026.293 | Có phát audio/video ngay trong phản hồi trên bản iOS công bố 2026-10-27. [Nguồn](https://learn.chatgpt.com/docs/changelog). | Nền tảng và phiên bản ứng dụng; không suy cho web/Android. |
+
+Đợt 2026-11-05 chỉ đọc nguồn công khai, **không kiểm thử tài khoản**. [Báo cáo đầy đủ](LEARN-SYNC-2026-11-05.md). Bảng nền bên dưới được giữ nguyên như lịch sử rà soát 2026-10-22.
+
 ## Ba câu hỏi khác nhau
 
 **Có tài liệu không?** Kiểm nguồn chính thức. **Tài khoản có dùng được không?** Kiểm surface, phiên bản ứng dụng, workspace, rollout, quyền và giới hạn. **Bài học đã READY chưa?** Kiểm [Content Status](CONTENT-STATUS.md). Ba câu trả lời có thể khác nhau.

@@ -2,10 +2,14 @@
 
 Lộ trình từ người mới dùng ChatGPT đến **Operator — sử dụng hiệu quả**, **Power User — làm việc nhiều bước**, và **Builder — xây dựng hệ thống AI**.
 
-> **Đề cương đồng bộ với ChatGPT Learn:** 2026-10-22. Đây là ngày rà soát nguồn, không phải phiên bản sản phẩm OpenAI.
+> **Đối chiếu ChatGPT Learn mới nhất:** 2026-11-05 (đồng bộ nội dung mới sau bản nền 2026-10-22). Xem [Learn Sync 2026-11-05](docs/LEARN-SYNC-2026-11-05.md).
 > **Biên soạn:** 56 bài cốt lõi, gồm **11 READY / 45 PLANNED**; thêm 4 chuyên đề tùy chọn PLANNED ngoài số bài cốt lõi.
 > **Phát hành:** v0.2.0 preview; U05 pre-pilot complete, U06 pilot đã bắt đầu nhưng chưa hoàn thành gate đầu-cuối.
 > **Tiến độ người học:** BOOT.1 và BOOT.2 PASS; BOOT.3 IN PROGRESS. Nguồn chính thức trong repo là [PROGRESS.md](PROGRESS.md).
+
+## Bản cập nhật 05/11/2026
+
+Đã rà soát [What's New](https://learn.chatgpt.com/docs/whats-new), [Changelog](https://learn.chatgpt.com/docs/changelog) và tài liệu model. Điểm mới đáng chú ý: **GPT-6.1 Terra trong Work/Codex** (M02/M06), **nhắn tin với dots ở beta cho Pro tại Mỹ** (X01), **Codex CLI 0.164–0.166** (M09), và cập nhật media cho iOS (M05). Đây là **cập nhật đề cương**, không có nghĩa đã thử nghiệm các tính năng hoặc hoàn thiện các bài PLANNED. Xem [báo cáo nguồn và phạm vi](docs/LEARN-SYNC-2026-11-05.md).
 
 ## Bắt đầu hoặc học tiếp
 

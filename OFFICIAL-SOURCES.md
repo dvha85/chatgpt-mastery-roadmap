@@ -3,6 +3,18 @@
 > **Rà soát đề cương:** 2026-10-22. Nguồn trực tiếp được đọc qua web; chưa kiểm thử UI/tính năng trên tài khoản người học.
 > Ngày này không thay ngày QA từng lesson trong [Content Status](docs/CONTENT-STATUS.md).
 
+## Cập nhật sau đợt nền — kiểm ngày 2026-11-05
+
+| Nguồn | Thông tin đáng chú ý | Kiểm ngày |
+|---|---|---|
+| [What's New](https://learn.chatgpt.com/docs/whats-new) | Tuần mới nhất quan sát: **2026-10-26–30**; Terra và nhắn dot qua iMessage/RCS beta cho Pro tại Mỹ | 2026-11-05 |
+| [Changelog](https://learn.chatgpt.com/docs/changelog) | Mục đầu trang: **2026-10-29**, Codex CLI 0.166.0; các mốc 26–27/10 về Terra, iOS và CLI | 2026-11-05 |
+| [Models](https://learn.chatgpt.com/docs/models) | Terra trong Work/Codex, không phải Chat; chọn đúng surface và quyền | 2026-11-05 |
+| [Model Selection](https://learn.chatgpt.com/docs/model-selection) | So Terra với Sol trên cùng tác vụ và mức suy luận, kiểm kết quả thay vì chọn theo tên model | 2026-11-05 |
+| [Meet dots](https://learn.chatgpt.com/docs/dots) | Nêu rõ rollout, quyền, kênh nhắn tin beta tại Mỹ | 2026-11-05 |
+
+Chi tiết: [Learn Sync 2026-11-05](docs/LEARN-SYNC-2026-11-05.md). Bảng 2026-10-22 dưới đây là **snapshot lịch sử**, không phải trang mới nhất và không bị ghi đè ngày kiểm cũ.
+
 ## Nguồn đã đọc cho đợt đồng bộ
 
 | Nguồn | Dùng để cập nhật | Kiểm ngày |
